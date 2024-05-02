@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sito Lego</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(255, 213, 3);
+            padding: 10px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            font-family: 'Open Sans semibold', sans-serif;
+        }
+
+        nav {
+            display: inline-block;
+            margin-top: 1px;
+            margin-bottom: 6px;
+            margin-right: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 50px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #262626;
+            font-size: 15px;
+            font-weight: 800;
+        }
+
+        .logo {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 60px;
+            margin-left: 30px;
+        }
+
+        .logo img {
+            height: 60px;
+            width: auto;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .icons img {
+            height: 20px;
+            margin-right: 55px;
+            margin-left: -35px;
+        }
+
+        .apex {
+            font-size: 12px;
+            position: absolute;
+            margin-bottom: 9px;
+            margin-left: 100px;
+        }
+    </style>
 </head>
-<body>
-    
-</body>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <a href="project3.html"><img src="header/LEGO_logo.png" alt="LEGO Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">AQUISTA</a></li>
+                    <li><a href="#">SCOPRI</a></li>
+                    <li><a href="#">AIUTO</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <form>
+                    <button type="submit" style="background-color:transparent; border: none; position: relative;"><img src="header/search.png" style="height: 40px;"></button>
+                </form>
+                <!--<a href="#"><img src="header/search.png" alt="" style="height: 40px; margin-right: 60px; margin-left: 80px;"></a> -->
+                <a href="#"><img src="header/heart.png" alt=""></a>
+                <a href="#"><img src="header/shop.png" alt=""></a>
+                <span class="apex">(0)</span>
+            </div>
+        </header>
+    </body>
+
 </html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header-g {
+    background-color: rgb(255, 213, 3);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: 'Open Sans semibold', sans-serif;
+}
+
+.header-g nav {
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 6px;
+    margin-right: auto;
+}
+
+.header-g nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-g nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.header-g nav ul li:last-child {
+    margin-right: 0;
+
+}
+
+.header-g nav ul li a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons img {
+    height: 20px;
+    margin-right: 55px;
+    margin-left: -35px;
+}
+
+.apex {
+    font-size: 12px;
+    position: absolute;
+    margin-bottom: 9px;
+    margin-left: 100px;
+}

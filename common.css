@@ -1,76 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cera+Pro&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .header-g {
-    background-color: rgb(255, 213, 3);
-    padding: 10px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    font-family: 'Open Sans semibold', sans-serif;
+  background-color: rgb(255, 213, 3);
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: "Open Sans semibold", sans-serif;
 }
 
 .header-g nav {
-    display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 6px;
-    margin-right: auto;
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 6px;
+  margin-right: auto;
 }
 
 .header-g nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-g nav ul li {
-    display: inline;
-    margin-right: 50px;
+  display: inline;
+  margin-right: 50px;
 }
 
 .header-g nav ul li:last-child {
-    margin-right: 0;
-
+  margin-right: 0;
 }
 
 .header-g nav ul li a {
-    text-decoration: none;
-    color: #262626;
-    font-size: 15px;
-    font-weight: 800;
+  text-decoration: none;
+  color: #262626;
+  font-size: 15px;
+  font-weight: 800;
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 60px;
-    margin-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+  margin-left: 30px;
 }
 
 .logo img {
-    height: 60px;
-    width: auto;
+  height: 60px;
+  width: auto;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .icons img {
-    height: 20px;
-    margin-right: 55px;
-    margin-left: -35px;
+  height: 20px;
+  margin-right: 55px;
+  margin-left: -35px;
 }
 
 .apex {
-    font-size: 12px;
-    position: absolute;
-    margin-bottom: 9px;
-    margin-left: 100px;
+  font-size: 12px;
+  position: absolute;
+  margin-bottom: 9px;
+  margin-left: 100px;
+}
+/*Manuel*/
+.container {
+  height: fit-content;
+  width: 100%;
+  background-size: contain;
+  background-position: 250px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.container div {
+  z-index: 1;
+  align-items: flex-start;
+}
+.logo-banner {
+  height: 39px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+}
+.container p {
+  color: white;
+  padding-left: 110px;
+  font-family: "Cera Pro", sans-serif;
+  margin: 0px;
+}
+.container p:nth-of-type(1) {
+  margin-bottom: 10px;
+  font-size: 40px;
+  max-width: 40%;
+  font-weight: medium;
+}
+.container p:nth-last-of-type(1) {
+  font-size: 19px;
+  max-width: 35%;
+}
+.bottone {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Cera Pro medium", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+.bottone:hover {
+  color: white;
+  background-color: black;
+}
+.container button:nth-of-type(1) {
+  margin-left: 110px;
+}
+.banner-img {
+  margin-top: 0px;
+  height: 400px;
+  object-fit: contain;
+  position: absolute;
+  align-items: flex-end;
+  right: 10px;
+  z-index: 0;
 }

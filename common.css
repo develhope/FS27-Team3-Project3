@@ -76,33 +76,63 @@ body {
 }
 /*Manuel*/
 .container {
-  background-image: url(RISORSE/starwarsHead.JPG);
-  height: 350px;
+  height: fit-content;
   width: 100%;
-  max-width: 100%;
-  /* padding-left: 0; */
   background-size: contain;
   background-position: 250px;
-  background-repeat: no-repeat;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.container div {
+  z-index: 1;
+  align-items: flex-start;
 }
 .logo-banner {
   height: 39px;
   margin-left: 30px;
   margin-top: 80px;
   padding-left: 80px;
+  padding-bottom: 10px;
 }
-.testo {
+.container p {
   color: white;
   padding-left: 110px;
-  font-family: "Cera Pro thin", sans-serif;
+  font-family: "Cera Pro", sans-serif;
   margin: 0px;
+}
+.container p:nth-of-type(1) {
+  margin-bottom: 10px;
+  font-size: 40px;
+  max-width: 40%;
+  font-weight: medium;
+}
+.container p:nth-last-of-type(1) {
+  font-size: 19px;
+  max-width: 35%;
 }
 .bottone {
   padding: 10px;
-  border-radius: 10px;
-  margin-left: 110px;
+  border-radius: 5px;
   font-family: "Cera Pro medium", sans-serif;
-  font-weight: bold;
+  font-size: 16px;
   margin-top: 30px;
+  margin-right: 15px;
+}
+.bottone:hover {
+  color: white;
+  background-color: black;
+}
+.container button:nth-of-type(1) {
+  margin-left: 110px;
+}
+.banner-img {
+  margin-top: 0px;
+  height: 400px;
+  object-fit: contain;
+  position: absolute;
+  align-items: flex-end;
+  right: 10px;
+  z-index: 0;
 }

@@ -1,76 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cera+Pro&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .header-g {
-    background-color: rgb(255, 213, 3);
-    padding: 10px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    font-family: 'Open Sans semibold', sans-serif;
+  background-color: rgb(255, 213, 3);
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: "Open Sans semibold", sans-serif;
 }
 
 .header-g nav {
-    display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 6px;
-    margin-right: auto;
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 6px;
+  margin-right: auto;
 }
 
 .header-g nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-g nav ul li {
-    display: inline;
-    margin-right: 50px;
+  display: inline;
+  margin-right: 50px;
 }
 
 .header-g nav ul li:last-child {
-    margin-right: 0;
-
+  margin-right: 0;
 }
 
 .header-g nav ul li a {
-    text-decoration: none;
-    color: #262626;
-    font-size: 15px;
-    font-weight: 800;
+  text-decoration: none;
+  color: #262626;
+  font-size: 15px;
+  font-weight: 800;
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 60px;
-    margin-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+  margin-left: 30px;
 }
 
 .logo img {
-    height: 60px;
-    width: auto;
+  height: 60px;
+  width: auto;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .icons img {
-    height: 20px;
-    margin-right: 55px;
-    margin-left: -35px;
+  height: 20px;
+  margin-right: 55px;
+  margin-left: -35px;
 }
 
 .apex {
-    font-size: 12px;
-    position: absolute;
-    margin-bottom: 9px;
-    margin-left: 100px;
+  font-size: 12px;
+  position: absolute;
+  margin-bottom: 9px;
+  margin-left: 100px;
+}
+/*Manuel*/
+.container {
+  background-image: url(RISORSE/starwarsHead.JPG);
+  height: 350px;
+  width: 100%;
+  max-width: 100%;
+  /* padding-left: 0; */
+  background-size: contain;
+  background-position: 250px;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.logo-banner {
+  height: 39px;
+  margin-left: 30px;
+  margin-top: 80px;
+  padding-left: 80px;
+}
+.testo {
+  color: white;
+  padding-left: 110px;
+  font-family: "Cera Pro thin", sans-serif;
+  margin: 0px;
+}
+.bottone {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 110px;
+  font-family: "Cera Pro medium", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
 }

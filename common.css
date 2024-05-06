@@ -76,6 +76,7 @@ body {
 }
 /*Manuel*/
 .container {
+  position: absolute;
   height: fit-content;
   width: 100%;
   background-size: contain;
@@ -83,6 +84,8 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 50px;
 }
 .container div {
@@ -90,49 +93,61 @@ body {
   align-items: flex-start;
 }
 .logo-banner {
-  height: 39px;
-  margin-left: 30px;
-  margin-top: 80px;
-  padding-left: 80px;
-  padding-bottom: 10px;
+  height: 50px;
+  /*padding-left: 80px;
+  padding-bottom: 10px;*/
+  position: relative;
+  top: 80px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 .container p {
+  top: 80px;
+  position: relative;
   color: white;
-  padding-left: 110px;
+  text-align: center;
   font-family: "Cera Pro", sans-serif;
-  margin: 0px;
 }
 .container p:nth-of-type(1) {
-  margin-bottom: 10px;
   font-size: 40px;
-  max-width: 40%;
-  font-weight: medium;
+  max-width: 60%;
+  margin: 0 auto;
 }
 .container p:nth-last-of-type(1) {
+  padding: 10px;
   font-size: 19px;
-  max-width: 35%;
+  max-width: 55%;
+  margin: 0 auto;
 }
 .bottone {
-  padding: 10px;
+  position: relative;
+  padding: 15px;
   border-radius: 5px;
   font-family: "Cera Pro medium", sans-serif;
   font-size: 16px;
-  margin-top: 30px;
-  margin-right: 15px;
+  margin-top: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+  padding-left: 25px;
 }
-.bottone:hover {
-  color: white;
+.bottone button:first-child:hover {
   background-color: black;
+  color: white;
 }
-.container button:nth-of-type(1) {
-  margin-left: 110px;
+.bottone button:last-child:hover {
+  background-color: black;
+  color: white;
 }
+
 .banner-img {
-  margin-top: 0px;
-  height: 400px;
-  object-fit: contain;
   position: absolute;
-  align-items: flex-end;
-  right: 10px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: 0;
 }

@@ -75,15 +75,17 @@ body {
 /*Banner DnD*/
 
 .dnd-container {
+  background-image: url(risorse/03-banner-dnd/banner-imageDD.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 100%;
-  background-size: cover;
-  background-position: 250px;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 55px;
 }
 .dnd-container div {
   z-index: 1;
@@ -150,18 +152,10 @@ body {
   color: white;
 }
 
-.dnd-banner-img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  object-fit: contain;
-  z-index: 0;
-}
-
 /* Preferiti della Settimana */
 
 .favourite-of-week {
-  margin: 50px 55px;
+  margin: 10px 55px;
   font-family: "Cera Pro";
   padding: 20px;
 }
@@ -234,7 +228,6 @@ body {
   align-items: center;
   border-radius: 60px;
   justify-content: center;
-  gap: 10px;
 }
 .image-cookie {
   border-radius: 100px;
@@ -246,10 +239,13 @@ body {
 .bisquits {
   height: 110px;
 }
+.cookies-testi {
+  display: flex;
+  flex-direction: column;
+}
 .cookies-testi p {
   margin-bottom: 5px;
   margin-left: 15px;
-  white-space: nowrap;
 }
 .cookies-testi p:first-child {
   font-family: Cera Pro Bold;
@@ -267,6 +263,10 @@ body {
   gap: 25px;
   font-size: 14px;
   font-family: Cera Pro Medium;
-  color: #0a87da;
+  color: #288acb;
   margin-left: 15px;
+}
+
+.cookies-link a:visited {
+  color: #077cdc;
 }

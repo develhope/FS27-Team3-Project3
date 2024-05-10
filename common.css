@@ -117,13 +117,13 @@ body {
   font-size: 16px;
 }
 
-.logo {
+.header-g-logo {
   align-self: center;
   margin-right: 65px;
   margin-left: 25px;
 }
 
-.logo img {
+.header-g-logo img {
   height: 55px;
   width: auto;
 }
@@ -387,7 +387,7 @@ body {
   color: black;
   border: solid white;
 }
-.logo {
+.vb-logo {
   position: absolute;
   width: 150px;
   left: 5px;
@@ -505,6 +505,12 @@ body {
   background-color: black;
   color: white;
   border-radius: 5px;
+}
+
+.sb-button:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
 }
 
 .sb-under img{

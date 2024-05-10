@@ -1,6 +1,79 @@
 body {
   margin: 0;
 }
+/*header bianco*/
+
+.whiteheader {
+  background-color: #F8F8F8;
+  height: fit-content;
+  padding: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: cera pro;
+  
+}
+
+.whiteheader img {
+  height: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.whiteheader span {
+  align-items: center;
+  
+}
+
+.divider {
+  padding-right: 0%;
+}
+
+.whiteheader button {
+  background-color: #ABD9FF;
+  border-radius: 4px;
+  border: none;
+  margin: 0%;
+  height: fit-content;
+  padding: 4px;
+  margin-left: 30px;
+  
+}
+.buttonwh p{
+  margin: 0%;
+  font-size: 12px;
+  font-family: cera pro medium;
+}
+
+.whiteheader button:hover {
+  background-color: white;
+  
+}
+
+.accountwh {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  
+}
+.accountwh p{
+  font-size: 12px;
+}
+
+.whiteheader p{
+  font-size: 16px;
+  padding-right: 10px;
+  margin-left: 10px;
+
+}
+.textwh{
+  display: flex;
+  gap: 50px;
+  margin-right: 30px;
+}
 
 /*header giallo*/
 

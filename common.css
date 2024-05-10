@@ -234,7 +234,6 @@ body {
   align-items: center;
   border-radius: 60px;
   justify-content: center;
-  gap: 10px;
 }
 .image-cookie {
   border-radius: 100px;
@@ -246,10 +245,13 @@ body {
 .bisquits {
   height: 110px;
 }
+.cookies-testi {
+  display: flex;
+  flex-direction: column;
+}
 .cookies-testi p {
   margin-bottom: 5px;
   margin-left: 15px;
-  white-space: nowrap;
 }
 .cookies-testi p:first-child {
   font-family: Cera Pro Bold;
@@ -269,4 +271,54 @@ body {
   font-family: Cera Pro Medium;
   color: #0a87da;
   margin-left: 15px;
+}
+/*Video Banner*/
+.video-banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.vb-video {
+  object-fit: contain;
+  width: 100%;
+}
+.vb-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.vb-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+.vb-buttons button {
+  padding: 12px;
+  border-radius: 5px;
+  font-family: "Cera Pro medium", sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: black;
+  color: white;
+  border: solid black;
+}
+.vb-buttons button:hover {
+  background-color: white;
+  color: black;
+  border: solid white;
+}
+.vb-caption {
+  margin-left: 120px;
+  font-family: cera pro;
+  font-size: 40px;
+  max-width: 40%;
+}
+.logo {
+  position: absolute;
+  width: 150px;
+  margin-top: 430px;
+  margin-right: 1100px;
 }

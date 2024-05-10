@@ -350,20 +350,25 @@ body {
   flex-direction: column;
   width: 100%;
   position: relative;
-}
-.vb-video {
-  object-fit: contain;
-  width: 100%;
+  justify-content: center;
 }
 .vb-elements {
+  position: absolute;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-left: 110px;
+  padding-top: 0;
+}
+.vb-caption {
+  font-family: cera pro;
+  font-size: 40px;
+  max-width: 60%;
+  margin: 0 0 10px 0;
 }
 .vb-buttons {
   display: flex;
   flex-direction: row;
-  margin-left: 120px;
 }
 .vb-buttons button {
   padding: 12px;
@@ -372,7 +377,7 @@ body {
   font-size: 16px;
   margin-right: 20px;
   padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 15px;
   background-color: black;
   color: white;
   border: solid black;
@@ -382,24 +387,21 @@ body {
   color: black;
   border: solid white;
 }
-.vb-caption {
-  margin-left: 120px;
-  font-family: cera pro;
-  font-size: 40px;
-  max-width: 40%;
-}
 .logo {
   position: absolute;
   width: 150px;
-  margin-top: 430px;
-  margin-right: 1100px;
+  left: 5px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  bottom: 15px;
 }
 
 /*Tendenze*/
 
 .tendenze {
   font-family: "Cera Pro";
-  padding: 20px 70px 30px;
+  padding: 10px 70px 30px;
   background-color: #021c47;
 }
 

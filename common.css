@@ -75,15 +75,17 @@ body {
 /*Banner DnD*/
 
 .dnd-container {
+  background-image: url(risorse/03-banner-dnd/banner-imageDD.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 100%;
-  background-size: cover;
-  background-position: 250px;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 55px;
 }
 .dnd-container div {
   z-index: 1;
@@ -150,18 +152,10 @@ body {
   color: white;
 }
 
-.dnd-banner-img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  object-fit: contain;
-  z-index: 0;
-}
-
 /* Preferiti della Settimana */
 
 .favourite-of-week {
-  margin: 50px 55px;
+  margin: 10px 55px;
   font-family: "Cera Pro";
   padding: 20px;
 }
@@ -234,7 +228,6 @@ body {
   align-items: center;
   border-radius: 60px;
   justify-content: center;
-  gap: 10px;
 }
 .image-cookie {
   border-radius: 100px;
@@ -246,10 +239,13 @@ body {
 .bisquits {
   height: 110px;
 }
+.cookies-testi {
+  display: flex;
+  flex-direction: column;
+}
 .cookies-testi p {
   margin-bottom: 5px;
   margin-left: 15px;
-  white-space: nowrap;
 }
 .cookies-testi p:first-child {
   font-family: Cera Pro Bold;
@@ -262,11 +258,128 @@ body {
   margin-top: 5px;
   font-weight: 300;
 }
-.cookies-link {
-  display: flex;
+.cookies-link a {
   gap: 25px;
   font-size: 14px;
   font-family: Cera Pro Medium;
-  color: #0a87da;
+  color: #288acb;
   margin-left: 15px;
+}
+
+.cookies-link a:hover {
+  color: rgb(24, 112, 244);
+}
+
+/*Tendenze*/
+
+.tendenze {
+  font-family: "Cera Pro";
+  padding: 20px 70px 30px;
+  background-color: #021c47;
+}
+
+.tendenze-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tendenze-articles article {
+  padding: 5px;
+  flex-direction: column;
+}
+
+.tendenze-articles {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 10px;
+  height: fit-content;
+  justify-content: center;
+}
+
+.tendenze-articles a {
+  color: white;
+  text-decoration: none;
+}
+
+.tendenze-testo-card {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 2px;
+}
+
+.tendenze-article-title {
+  font-family: "Cera Pro Medium";
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.tendenze-articles article img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.tendenze-articles button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Cera Pro Medium";
+  color: white;
+}
+
+.tendenze-article-button {
+  margin-top: 30px;
+}
+
+.tendenze-articles form {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.tendenze-title p {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+/*piccolo banner*/
+
+.small-banner {
+  position:relative;
+  background-image: url(risorse/11-piccolo-banner/Space-Offers-Home-202407-Hero-Short-Large.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sb-header-content {
+  display: flex;
+  flex-direction:column;
+  align-items: end;
+  margin-right: 40px;
+}
+
+.sb-text {
+  font-family: Cera Pro;
+  font-size: 18px;
+  padding:10px;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+.sb-button {
+  font-size: 16px;
+  font-family: cera pro medium;
+  padding:12px 25px;
+  margin-bottom: 40px;
+  margin-right: 68px;
+  border-style: solid;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.sb-under img{
+  width: 100%;
 }

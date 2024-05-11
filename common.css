@@ -4,7 +4,7 @@ body {
 /*header bianco*/
 
 .whiteheader {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   height: fit-content;
   padding: 15px;
   display: flex;
@@ -12,7 +12,6 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: cera pro;
-  
 }
 
 .whiteheader img {
@@ -25,7 +24,6 @@ body {
 
 .whiteheader span {
   align-items: center;
-  
 }
 
 .divider {
@@ -33,16 +31,15 @@ body {
 }
 
 .whiteheader button {
-  background-color: #ABD9FF;
+  background-color: #abd9ff;
   border-radius: 4px;
   border: none;
   margin: 0%;
   height: fit-content;
   padding: 4px;
   margin-left: 30px;
-  
 }
-.buttonwh p{
+.buttonwh p {
   margin: 0%;
   font-size: 12px;
   font-family: cera pro medium;
@@ -50,26 +47,23 @@ body {
 
 .whiteheader button:hover {
   background-color: white;
-  
 }
 
 .accountwh {
   display: flex;
   justify-content: space-between;
   padding-right: 10px;
-  
 }
-.accountwh p{
+.accountwh p {
   font-size: 12px;
 }
 
-.whiteheader p{
+.whiteheader p {
   font-size: 16px;
   padding-right: 10px;
   margin-left: 10px;
-
 }
-.textwh{
+.textwh {
   display: flex;
   gap: 50px;
   margin-right: 30px;
@@ -421,14 +415,14 @@ body {
 /*piccolo banner*/
 
 .small-banner {
-  position:relative;
+  position: relative;
   background-image: url(risorse/11-piccolo-banner/Space-Offers-Home-202407-Hero-Short-Large.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .sb-header-content {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: end;
   margin-right: 40px;
 }
@@ -436,7 +430,7 @@ body {
 .sb-text {
   font-family: Cera Pro;
   font-size: 18px;
-  padding:10px;
+  padding: 10px;
   margin-right: 60px;
   margin-top: 40px;
 }
@@ -444,7 +438,7 @@ body {
 .sb-button {
   font-size: 16px;
   font-family: cera pro medium;
-  padding:12px 25px;
+  padding: 12px 25px;
   margin-bottom: 40px;
   margin-right: 68px;
   border-style: solid;
@@ -453,6 +447,93 @@ body {
   border-radius: 5px;
 }
 
-.sb-under img{
+.sb-under img {
   width: 100%;
+}
+
+/* footer*/
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 5px 30px;
+}
+
+.footer img {
+  width: 97px;
+}
+.footer button {
+  background-color: #18152d;
+  width: 85.54px;
+  height: 38.98px;
+  border: none;
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-family: Cera Pro;
+  font-size: 14px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  color: white;
+  font-family: Cera Pro;
+  font-weight: 700;
+  font-size: 14px;
+}
+.textfooter {
+  display: flex;
+  flex-direction: column;
+  max-width: 10%;
+  gap: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  background-color: #201d48;
+  flex-direction: column;
+}
+.social-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.social-footer img {
+  width: 40px;
+}
+.iscrivitifooter {
+  display: flex;
+  flex-direction: column;
+}
+.seguicifooter {
+  display: flex;
+  flex-direction: column;
+}
+.logo-social-footer {
+  display: flex;
+  flex-direction: row;
+}
+.link-copyright-footer {
+  display: flex;
+  flex-direction: row;
+}
+.lower-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #201d48;
+  justify-content: space-between;
+  gap: 10px;
+}
+.diritti-footer p {
+  display: flex;
+  flex-direction: column;
 }

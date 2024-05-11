@@ -1,233 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sito Lego</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sito Lego</title>
-  <link rel="stylesheet" href="common.css" />
-  <link rel="stylesheet" href="fonts.css" />
-</head>
+  <body>
+    <!--header bianco -->
 
-<body>
-  <!--header bianco -->
+    <div class="whiteheader">
+      <button class="buttonwh">← AREA GIOCHI</button>
+      <div class="textwh">
+        <p>
+          Consegna GRATUITA sugli ordini superiori a 55 €!*
+          <a href="#">scopri di più</a>
+        </p>
 
-  <div class="whiteheader">
-    <button class="buttonwh"> ← AREA GIOCHI </button>
-    <div class="textwh">
-    <p>
-    
-      Consegna GRATUITA sugli ordini superiori a 55 €!*
-      <a href="#">scopri di più</a>
-    </p>
-
-    <div class="accountwh">
-      <img src="risorse/01-header-bianco/523788.png" />
-      <p>account</p>
-      <img src="risorse/01-header-bianco/line_649686.png" class="divider" />
-      <img src="risorse/01-header-bianco/24-05-01_17-44-42-504.png" />
-      <p>Iscriviti al programma LEGO® Insiders</p>
+        <div class="accountwh">
+          <img src="risorse/01-header-bianco/523788.png" />
+          <p>account</p>
+          <img src="risorse/01-header-bianco/line_649686.png" class="divider" />
+          <img src="risorse/01-header-bianco/24-05-01_17-44-42-504.png" />
+          <p>Iscriviti al programma LEGO® Insiders</p>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
 
-  <!--header giallo -->
+    <!--header giallo -->
 
-  <header class="header-g">
-    <div class="logo">
-      <a href="project3.html"><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo" /></a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">ACQUISTA</a></li>
-        <li><a href="#">SCOPRI</a></li>
-        <li><a href="#">AIUTO</a></li>
-      </ul>
-    </nav>
-    <div class="icons">
-      <form>
-        <button type="submit" style="
+    <header class="header-g">
+      <div class="logo">
+        <a href="project3.html"
+          ><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">ACQUISTA</a></li>
+          <li><a href="#">SCOPRI</a></li>
+          <li><a href="#">AIUTO</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <form>
+          <button
+            type="submit"
+            style="
               background-color: transparent;
               border: none;
               position: relative;
-            ">
-          <img src="risorse/02-header-giallo/search.png" style="height: 40px" />
-        </button>
-      </form>
-      <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
-      <a href="#"><img src="risorse/02-header-giallo/shop.png" alt="" /><sup>(0)</sup></a>
-    </div>
-  </header>
-
-  <!--DnD banner-->
-
-  <article class="dnd-container" id="top-section">
-    <div class="dnd-content">
-      <img class="dnd-logo-banner" src="risorse/03-banner-dnd/dungeons-and-dragons-logo-600w.png" />
-      <p>Costruisci un'avventura come mai prima d'ora</p>
-      <p>
-        Parti per un'epica missione con il nuovo set Dungeons & Dragons: Il
-        racconto del Drago Rosso.
-      </p>
-      <span class="dnd-bottone">
-        <button class="dnd-bottone">Scopri di più ></button>
-        <button class="dnd-bottone">Compra ora ></button>
-      </span>
-    </div>
-  </article>
-
-  <!--Preferiti della settimana-->
-
-  <main class="favourite-of-week">
-    <div class="fow-title">
-      <p>I preferiti di questa settimana</p>
-    </div>
-    <div class="fow-articles">
-      <article>
-        <a href="#">
-          <img src="risorse/06-preferiti-settimana/despicableMe4-article-1.webp" />
-          <p class="fow-article-title">Unisciti ai dispettosi Minions</p>
-          <p class="fow-testo-card">
-            Dai vita alla vita di Gru con i nuovi set Cattivissimo Me 4
-            LEGO<sup>®</sup>.
-          </p>
-        </a>
-        <form action="#">
-          <button type="submit" class="fow-article-button">
-            Compra ora >
+            "
+          >
+            <img
+              src="risorse/02-header-giallo/search.png"
+              style="height: 40px"
+            />
           </button>
         </form>
-      </article>
-      <article>
-        <a href="#">
-          <img src="risorse/06-preferiti-settimana/McLaren-Anton-Senna.webp" />
-          <p class="fow-article-title">Accendi il tuo entusiasmo creativo</p>
-          <p class="fow-testo-card">
-            Celebra il mondo degli sport motoristici con i nuovi set LEGO<sup>®</sup>
-            icons.
-          </p>
-        </a>
-        <form action="#">
-          <button type="submit" class="fow-article-button">
-            Compra ora >
-          </button>
-        </form>
-      </article>
-      <article>
-        <a href="#">
-          <img src="risorse/06-preferiti-settimana/Minifigures-article-1.png" />
-          <p class="fow-article-title">Parti per avventure intergalattiche</p>
-          <p class="fow-testo-card">
-            Aggiungi i nuovi personaggi Serie 26 - Spazio LEGO
-            <sup>®</sup> Minifigures alla tua collezione.
-          </p>
-        </a>
-        <form action="#">
-          <button type="submit" class="fow-article-button">
-            Compra ora >
-          </button>
-        </form>
-      </article>
-    </div>
-  </main>
+        <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
+        <a href="#"
+          ><img src="risorse/02-header-giallo/shop.png" alt="" /><sup
+            >(0)</sup
+          ></a
+        >
+      </div>
+    </header>
 
-  <!--cookies-->
+    <!--DnD banner-->
 
-  <div class="cookies-box">
-    <div class="cookies">
-      <img class="image-cookie" src="risorse/08-cookies/cookieguy-a8400ece3d416842cb83d9f1efc22662.png" />
-      <div class="cookies-testi">
+    <article class="dnd-container" id="top-section">
+      <div class="dnd-content">
+        <img
+          class="dnd-logo-banner"
+          src="risorse/03-banner-dnd/dungeons-and-dragons-logo-600w.png"
+        />
+        <p>Costruisci un'avventura come mai prima d'ora</p>
         <p>
-          Aiutaci a creare per te una fantastica esperienza personalizzata!
+          Parti per un'epica missione con il nuovo set Dungeons & Dragons: Il
+          racconto del Drago Rosso.
         </p>
-        <p>
-          Aiutaci a creare per te una fantastica esperienza personalizzata per
-          te! Fornisci il consenso per l'utilizzo dei cookie del sito e noi
-          creeremo per te un'esperienza fantastica!
-        </p>
-        <span class="cookies-link">
-          <a href="#">Procediamo</a>
-          <a href="#">Maggiori informazioni</a>
+        <span class="dnd-bottone">
+          <button class="dnd-bottone">Scopri di più ></button>
+          <button class="dnd-bottone">Compra ora ></button>
         </span>
       </div>
-      <img class="bisquits" src="risorse/08-cookies/cookies-afb23abdf31dc35a6f446c474ef33678.png" />
-    </div>
-  </div>
+    </article>
 
-  <!--tendenze-->
+    <!--Preferiti della settimana-->
 
-  <main class="tendenze">
-    <div class="tendenze-title">
-      <p>Esplora altri set dedicati allo spazio</p>
-    </div>
-    <div tendenze-container>
-      <div class="tendenze-articles">
+    <main class="favourite-of-week">
+      <div class="fow-title">
+        <p>I preferiti di questa settimana</p>
+      </div>
+      <div class="fow-articles">
         <article>
           <a href="#">
-            <img src="risorse/10-tendenze/Space-42979-Home-202407-Block-Standard.png" />
-            <p class="tendenze-article-title">Esplora lo spazio e costruisci sul serio</p>
-          </a>
-          <form action="#">
-            <button type="submit" class="tendenze-article-button">
-              Compra ora >
-            </button>
-          </form>
-        </article>
-        <article>
-          <a href="#">
-            <img src="risorse/10-tendenze/Space-42605-Home-202407-Block-Standard.png" />
-            <p class="tendenze-article-title">Set spaziali per inventare storie</p>
-          </a>
-          <form action="#">
-            <button type="submit" class="tendenze-article-button">
-              Compra ora >
-            </button>
-          </form>
-        </article>
-        <article>
-          <a href="#">
-            <img src="risorse/10-tendenze/Space-10422-Home-202407-Block-Standard.png" />
-            <p class="tendenze-article-title">Divertimento spaziale per i piccoli esploratori</p>
-          </a>
-          <form action="#">
-            <button type="submit" class="tendenze-article-button">
-              Compra ora >
-            </button>
-          </form>
-        </article>
-        <article>
-          <a href="#">
-            <img src="risorse/10-tendenze/Space-KV-Home-202407-Block-Standard.webp" />
-            <p class="tendenze-article-title">Regala infiniti modi per esplorare lo spazio</p>
-            <p class="tendenze-testo-card">
-              Trova i set LEGO<sup>®</sup> che ti permettono di portare le meraviglie dello spazio a casa
-              con te.
+            <img
+              src="risorse/06-preferiti-settimana/despicableMe4-article-1.webp"
+            />
+            <p class="fow-article-title">Unisciti ai dispettosi Minions</p>
+            <p class="fow-testo-card">
+              Dai vita alla vita di Gru con i nuovi set Cattivissimo Me 4
+              LEGO<sup>®</sup>.
             </p>
           </a>
           <form action="#">
-            <button type="submit">
+            <button type="submit" class="fow-article-button">
+              Compra ora >
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img
+              src="risorse/06-preferiti-settimana/McLaren-Anton-Senna.webp"
+            />
+            <p class="fow-article-title">Accendi il tuo entusiasmo creativo</p>
+            <p class="fow-testo-card">
+              Celebra il mondo degli sport motoristici con i nuovi set LEGO<sup
+                >®</sup
+              >
+              icons.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="fow-article-button">
+              Compra ora >
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img
+              src="risorse/06-preferiti-settimana/Minifigures-article-1.png"
+            />
+            <p class="fow-article-title">Parti per avventure intergalattiche</p>
+            <p class="fow-testo-card">
+              Aggiungi i nuovi personaggi Serie 26 - Spazio LEGO
+              <sup>®</sup> Minifigures alla tua collezione.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="fow-article-button">
               Compra ora >
             </button>
           </form>
         </article>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <!--piccolo banner-->
+    <!--cookies-->
 
-  <div class="small-banner">
-    <div class="sb-header">
-      <div class="sb-header-content">
-        <p class="sb-text">Scopri le offerte speciali in corso</p>
-        <button class="sb-button">Scopri di più ></button>
+    <div class="cookies-box">
+      <div class="cookies">
+        <img
+          class="image-cookie"
+          src="risorse/08-cookies/cookieguy-a8400ece3d416842cb83d9f1efc22662.png"
+        />
+        <div class="cookies-testi">
+          <p>
+            Aiutaci a creare per te una fantastica esperienza personalizzata!
+          </p>
+          <p>
+            Aiutaci a creare per te una fantastica esperienza personalizzata per
+            te! Fornisci il consenso per l'utilizzo dei cookie del sito e noi
+            creeremo per te un'esperienza fantastica!
+          </p>
+          <span class="cookies-link">
+            <a href="#">Procediamo</a>
+            <a href="#">Maggiori informazioni</a>
+          </span>
+        </div>
+        <img
+          class="bisquits"
+          src="risorse/08-cookies/cookies-afb23abdf31dc35a6f446c474ef33678.png"
+        />
       </div>
     </div>
-  </div>
-  <div class="sb-under">
-    <img src="risorse/11-piccolo-banner/Space-Home-202407-Inpage-Nav-Large-Logo.jpeg">
-  </div>
 
-</body>
+    <!--tendenze-->
 
+    <main class="tendenze">
+      <div class="tendenze-title">
+        <p>Esplora altri set dedicati allo spazio</p>
+      </div>
+      <div tendenze-container>
+        <div class="tendenze-articles">
+          <article>
+            <a href="#">
+              <img
+                src="risorse/10-tendenze/Space-42979-Home-202407-Block-Standard.png"
+              />
+              <p class="tendenze-article-title">
+                Esplora lo spazio e costruisci sul serio
+              </p>
+            </a>
+            <form action="#">
+              <button type="submit" class="tendenze-article-button">
+                Compra ora >
+              </button>
+            </form>
+          </article>
+          <article>
+            <a href="#">
+              <img
+                src="risorse/10-tendenze/Space-42605-Home-202407-Block-Standard.png"
+              />
+              <p class="tendenze-article-title">
+                Set spaziali per inventare storie
+              </p>
+            </a>
+            <form action="#">
+              <button type="submit" class="tendenze-article-button">
+                Compra ora >
+              </button>
+            </form>
+          </article>
+          <article>
+            <a href="#">
+              <img
+                src="risorse/10-tendenze/Space-10422-Home-202407-Block-Standard.png"
+              />
+              <p class="tendenze-article-title">
+                Divertimento spaziale per i piccoli esploratori
+              </p>
+            </a>
+            <form action="#">
+              <button type="submit" class="tendenze-article-button">
+                Compra ora >
+              </button>
+            </form>
+          </article>
+          <article>
+            <a href="#">
+              <img
+                src="risorse/10-tendenze/Space-KV-Home-202407-Block-Standard.webp"
+              />
+              <p class="tendenze-article-title">
+                Regala infiniti modi per esplorare lo spazio
+              </p>
+              <p class="tendenze-testo-card">
+                Trova i set LEGO<sup>®</sup> che ti permettono di portare le
+                meraviglie dello spazio a casa con te.
+              </p>
+            </a>
+            <form action="#">
+              <button type="submit">Compra ora ></button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <!--piccolo banner-->
+
+    <div class="small-banner">
+      <div class="sb-header">
+        <div class="sb-header-content">
+          <p class="sb-text">Scopri le offerte speciali in corso</p>
+          <button class="sb-button">Scopri di più ></button>
+        </div>
+      </div>
+    </div>
+    <div class="sb-under">
+      <img
+        src="risorse/11-piccolo-banner/Space-Home-202407-Inpage-Nav-Large-Logo.jpeg"
+      />
+    </div>
+
+    <!--footer-->
+
+    <footer>
+      <div class="footer">
+        <div class="textfooter">
+          <img src="risorse/15-footer/brand-lego.svg" alt="LEGO_logo" />
+          <button>italia</button>
+          <a href="#"> Buoni regalo </a>
+          <a href="#"> Trova l'ispirazione </a>
+          <a href="#"> Cataloghi LEGO </a>
+          <a href="#"> Trova un negozio LEGO </a>
+        </div>
+        <div class="textfooter">
+          <p>CHI SIAMO</p>
+          <a href="#"> Informazioni su LEGO Group </a>
+          <a href="#"> Sala stampa LEGO® </a>
+          <a href="#"> Sostenibilità </a>
+          <a href="#">
+            Dichiarazione sulla trasparenza della catena di fornitura
+          </a>
+          <a href="#"> Certificazioni dei prodotti LEGO </a>
+          <a href="#"> Carriere LEGO </a>
+          <a href="#"> Segnalazioni sulla conformità LEGO </a>
+        </div>
+        <div class="textfooter">
+          <p>SUPPORTO</p>
+          <a href="#"> Contattaci </a>
+          <a href="#"> Istruzioni </a>
+          <a href="#"> Parti mancanti </a>
+          <a href="#"> Spedizione e resi </a>
+          <a href="#"> Modalità di pagamento </a>
+          <a href="#"> Termini e condizioni </a>
+          <a href="#"> Richiamo prodotti </a>
+        </div>
+        <div class="textfooter">
+          <p>ATTRAZIONI</p>
+          <a href="#"> LEGO® House </a>
+          <a href="#"> LEGOLAND® Parks </a>
+          <a href="#"> LEGOLAND Discovery Center </a>
+        </div>
+        <div class="textfooter">
+          <p>ALTRE INFORMAZIONI</p>
+          <a href="#"> LEGO® LIFE</a>
+          <a href="#"> LEGO Education</a>
+          <a href="#"> LEGO Ideas</a>
+          <a href="#"> LEGO Foundation</a>
+          <a href="#"> Programma di affiliazione</a>
+        </div>
+      </div>
+    </footer>
+    <div class="lower-footer">
+      <div class="social-footer">
+        <div class="Iscrivitifooter">
+          <p>ISCRIVITI ALLE E-MAIL DI MARKETING</p>
+          <input type="text" placeholder="il tuo indirizzo e-mail" />
+          <button>
+            <svg
+              viewBox="0 0 40 40"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="seguicifooter">
+          <p>SEGUICI</p>
+          <div class="logo-social-footer">
+            <img
+              src="risorse/15-footer/facebook-895fba5a20c4facacb9655dade1d256c.svg"
+            />
+            <img
+              src="risorse/15-footer/twitter-4bee8e762dd6042960b804964fd64103.svg"
+            />
+            <img
+              src="risorse/15-footer/instagram-e47f0d4b15ff76083b415be91e96f43b.svg"
+            />
+            <img
+              src="risorse/15-footer/youtube-c51b2c62583921aae813fdc55df5f9d2.svg"
+            />
+          </div>
+        </div>
+
+        <div class="copyright-footer">
+          <div class="link-copyright-footer">
+            <a href="#">Informativa sulla privacy</a>
+            <a href="#">Cookie</a>
+            <a href="#">Informativa legale</a>
+            <a href="#">Termini d'uso</a>
+            <a href="#">Accessibilità</a>
+            <a href="#">Impostazioni dei cookie</a>
+          </div>
+          <div class="diritti-footer">
+            <p>
+              LEGO System A/S, DK-7190 Billund, Denmark. Per effettuare acquisti
+              online è necessario essere maggiorenni. LEGO, il logo LEGO, la
+              Minifigure, DUPLO, il logo FRIENDS, il logo MINIFIGURES, DREAMZzz,
+              NINJAGO, VIDIYO e MINDSTORMS sono marchi registrati di LEGO Group.
+              ©2024 The LEGO Group. Tutti i diritti riservati. L'uso di questo
+              sito implica l'accettazione dei Termini d’uso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

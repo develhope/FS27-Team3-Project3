@@ -247,6 +247,43 @@ body {
   padding-left: 10px;
 }
 
+/* Cards piccole*/
+
+.small-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: Cera pro;
+  margin-top: 25px;
+}
+
+.small-card {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.small-card img{
+  height: 97px;
+  margin: 0;
+}
+
+.small-card p {
+  font-size: 14px;
+}
+
+.small-card a {
+  display: flex;
+  flex-direction: column;
+  color: #262626;
+  text-decoration: none;
+  align-items: center;
+}
+
+.small-card a:hover {
+  text-decoration: underline;
+}
+
 /* Preferiti della Settimana */
 
 .favourite-of-week {
@@ -567,3 +604,488 @@ body {
 .sb-button svg {
   height: 25px;
 }
+
+/* Cards grandi */
+
+.cg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 50px;
+}
+
+.cg-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: cera pro;
+  align-items: center;
+}
+
+.cg-text p:first-child {
+  font-family: cera pro bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.cg-text p:last-child {
+  font-size: 16px;
+  margin: 10;
+  max-width: 60%;
+  text-align: center;
+}
+
+.cg-images {
+  display: flex;
+  gap: 20px;
+}
+
+.cg-images img {
+  height: 335px;
+}
+
+.cg-button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+  background-color: #666666;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+}
+
+.cg-container button:hover {
+  background-color: #545454;
+  text-decoration: underline;
+}
+
+.cg-button svg {
+  height: 20px;
+}
+
+/* In evidenza */
+
+.ie-main-box {
+  background-color: #e4e5ec;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.in-evidenza-box p {
+  font-family: cera pro;
+  font-size: 32px;
+  margin: 40px 80px 20px 80px;
+}
+.ie-boxes {
+  display: flex;
+  flex-direction: row;
+  font-family: Cera Pro, sans-serif;
+  width: 100vw;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ie-pink {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7aecd;
+  width: fit-content;
+  align-items: center;
+  width: 630px;
+}
+.insider-section-pink {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.insider-section-pink a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: cera pro medium;
+  color: black;
+}
+.ie-insiders-img {
+  margin-top: 20px;
+  width: 100%;
+  object-fit: cover;
+}
+.ie-gift,
+.ie-build-img {
+  width: 50%;
+  object-fit: cover;
+}
+.head-insider-ie {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: cera pro medium;
+}
+
+.caption-insider-ie {
+  margin-bottom: 20px;
+}
+.ie-arancio-azzurro {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  gap: 20px;
+}
+.ie-orange {
+  background-color: #f9984e;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gift-section-orange {
+  display: flex;
+  flex-direction: column;
+}
+.gift-caption-ie{
+  font-size: 14px;
+  width: 85%;
+}
+
+.gift-head-ie {
+  font-family: Cera pro medium;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:0;
+  margin-bottom: 20px;
+}
+.ie-boxes a svg{
+  height: 20px;
+  margin-left: 5px;
+}
+.ie-orange a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: cera pro medium;
+}
+
+.ie-azzurro {
+  background-color: #c6e2f3;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+}
+.build-section-ie {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.build-head-ie {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: cera pro medium;
+}
+.build-caption-ie {
+  font-size: 14px;
+}
+.ie-azzurro a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  font-family: cera pro medium;
+  display: flex;
+  align-items: center;
+}
+
+/* Leggi Tutto */
+
+.leggi-tutto {
+  width: 100vw;
+  background-color: #E4E5EC;
+  font-family: "Cera Pro";
+  justify-content: space-around;
+}
+
+.lt-container {
+  padding: 30px 70px;
+}
+
+.lt-articles article {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lt-articles {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 10px;
+  height: fit-content;
+  justify-content: center;
+}
+
+.lt-articles a {
+  color: black;
+  text-decoration: none;
+}
+
+.lt-testo-card {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 2px;
+}
+
+.lt-article-title {
+  font-family: "Cera Pro Medium";
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.lt-articles article img {
+  width: 18.75em;
+  object-fit: contain;
+}
+
+.lt-articles button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Cera Pro Medium";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lt-articles form {
+  display: flex;
+  justify-content: center;
+}
+
+.lt-title p {
+  font-size: 2em;
+  margin-bottom: 0.9375em;
+}
+
+.lt-article-button svg {
+  height: 1.25em;
+  align-self: center;
+}
+
+/* claim */
+
+.claim {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 1.875em 0px;
+}
+
+.claim-container {
+  background-color: #F2F2F2;
+  width: 90vw;
+  height: fit-content;
+  padding: 1.25em;
+}
+
+.claim-text {
+  font-family: Cera pro;
+  font-size: 0.85em;
+}
+
+.claim-text a{
+  color: #1174BA;
+  text-decoration: none;
+}
+
+.claim-text a:hover {
+  text-decoration: underline;
+}
+
+/* footer*/
+
+.upper-footer {
+  display: flex;
+  gap: 10px;
+  width: 100vw;
+  background-color: #201d48;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-footer {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.chisiamo{
+  max-width: 200px;
+}
+
+.footer {
+  height: fit-content;
+  display: flex;
+  gap: 80px;
+  margin-top:40px;
+}
+
+.footer img {
+  width: 97px;
+}
+
+.footer button {
+  background-color: #18152d;
+  width: 85.54px;
+  height: 38.98px;
+  border: none;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-family: Cera Pro;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  color: white;
+  font-family: Cera Pro bold;
+}
+
+.first-column-footer {
+  margin-left: 50px;
+  margin-right: 30px;
+  display: flex;
+}
+
+.textfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+}
+
+.textfooter a,
+p {
+  font-size: 16px;
+}
+
+.lower-footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #201d48;
+  position: relative;
+  display: flex;
+  font-family: Cera Pro;
+  color: white;
+}
+
+.lf-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin: 60px;
+  margin-bottom: 20px;
+}
+
+.social-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-footer img {
+  width: 40px;
+}
+
+.iscriviti-footer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.iscriviti-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.iscriviti-footer p {
+  font-family: cera pro medium;
+}
+
+.iscriviti-footer input {
+  padding: 24px 35px 16px 20px;
+  text-align: start;
+  font-size: 14px;
+  border: 0.5px solid #e0e0e0;
+  color: #757575;
+}
+
+.iscriviti-footer button {
+  margin: 0;
+  padding: 10px 13px 10px 13px;
+  border: 1px solid #e96f14;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: #e96f14;
+}
+
+.iscriviti-footer button svg {
+  height: 25px;
+}
+
+.seguicifooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-social-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.copyright-footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.link-copyright-footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.link-copyright-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.diritti-footer p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+

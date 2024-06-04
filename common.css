@@ -591,6 +591,10 @@ body {
   gap: 10px;
 }
 
+.sb-button a{
+  text-decoration: none;
+}
+
 .sb-button:hover {
   background-color: white;
   color: black;

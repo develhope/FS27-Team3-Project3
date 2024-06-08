@@ -4,7 +4,7 @@ body {
 /*header bianco*/
 
 .whiteheader {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   height: fit-content;
   padding: 8px 0px;
   display: flex;
@@ -12,7 +12,6 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: cera pro;
-  
 }
 
 .whiteheader img {
@@ -44,7 +43,6 @@ body {
 
 .whiteheader button:hover {
   background-color: white;
-  
 }
 
 .accountwh {
@@ -52,9 +50,8 @@ body {
   padding-right: 15px;
   align-items: center;
   gap: 10px;
-  
 }
-.accountwh p{
+.accountwh p {
   font-size: 8px;
   align-items: flex-end;
   font-family: Cera Pro Medium;
@@ -66,10 +63,10 @@ body {
   margin-top: 0;
 }
 
-.whiteheader p{
+.whiteheader p {
   font-size: 12px;
 }
-.textwh{
+.textwh {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -83,11 +80,10 @@ body {
   margin-right: 102px;
   margin-top: 7px;
   gap: 12px;
-
 }
 .wh-middle-text a {
   text-decoration: none;
-  color: #005AD2;
+  color: #005ad2;
 }
 .wh-middle-text a:hover {
   text-decoration: underline;
@@ -161,6 +157,84 @@ body {
   color: black;
   text-decoration: none;
   font-style: "Cera pro";
+}
+
+/* sidebar */
+.vp-box {
+  position: absolute;
+  z-index: 2;
+  font-family: Cera Pro;
+}
+.close-btn {
+  display: flex;
+  background-color: white;
+  border: none;
+  font-weight: 550;
+  font-size: 30px;
+  position: relative;
+  left: 600px;
+}
+.dark-trasparency {
+  background-color: rgba(0, 0, 0, 0.266);
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.dark-trasparency-visible {
+  display: block;
+}
+.side-white-box {
+  width: 677px;
+  height: 100vh;
+  background-color: white;
+  overflow-y: auto;
+  position: fixed;
+  transition: transform 0.6s ease;
+  transform: translateX(-100%);
+  z-index: 1;
+}
+.side-white-box-visible {
+  transform: translateX(0);
+}
+.side-bar-head {
+  display: flex;
+  font-size: 16px;
+}
+.side-bar-head a {
+  color: black;
+  text-decoration: none;
+}
+.side-bar-head a:hover {
+  text-decoration: underline;
+}
+.logo-side-bar {
+  width: 55px;
+}
+.nav-side-bar {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
+}
+.side-list {
+  display: none;
+  flex-direction: column;
+  margin-left: 95px;
+}
+.side-list-show {
+  display: flex;
+}
+.side-list a {
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: black;
+}
+.side-list svg {
+  height: 12px;
 }
 
 /*Banner DnD*/
@@ -260,10 +334,9 @@ body {
 .small-card {
   display: flex;
   flex-direction: column;
-  
 }
 
-.small-card img{
+.small-card img {
   height: 97px;
   margin: 0;
 }
@@ -556,14 +629,14 @@ body {
 /*piccolo banner*/
 
 .small-banner {
-  position:relative;
+  position: relative;
   background-image: url(risorse/11-piccolo-banner/Space-Offers-Home-202407-Hero-Short-Large.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .sb-header-content {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: end;
   margin-right: 40px;
 }
@@ -571,15 +644,15 @@ body {
 .sb-text {
   font-family: Cera Pro;
   font-size: 18px;
-  padding:10px;
+  padding: 10px;
   margin-right: 60px;
   margin-top: 40px;
 }
 
 .sb-button {
-  font-family: Cera Pro Medium ;
+  font-family: Cera Pro Medium;
   font-size: 16px;
-  padding:10px 15px;
+  padding: 10px 15px;
   margin-bottom: 40px;
   margin-right: 68px;
   border-style: solid;
@@ -591,7 +664,7 @@ body {
   gap: 10px;
 }
 
-.sb-button a{
+.sb-button a {
   text-decoration: none;
 }
 
@@ -601,7 +674,7 @@ body {
   border-color: white;
 }
 
-.sb-under img{
+.sb-under img {
   width: 100%;
 }
 
@@ -755,7 +828,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.gift-caption-ie{
+.gift-caption-ie {
   font-size: 14px;
   width: 85%;
 }
@@ -764,10 +837,10 @@ body {
   font-family: Cera pro medium;
   font-size: 24px;
   font-weight: bold;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 20px;
 }
-.ie-boxes a svg{
+.ie-boxes a svg {
   height: 20px;
   margin-left: 5px;
 }
@@ -815,7 +888,7 @@ body {
 
 .leggi-tutto {
   width: 100vw;
-  background-color: #E4E5EC;
+  background-color: #e4e5ec;
   font-family: "Cera Pro";
   justify-content: space-around;
 }
@@ -897,7 +970,7 @@ body {
 }
 
 .claim-container {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   width: 90vw;
   height: fit-content;
   padding: 1.25em;
@@ -908,8 +981,8 @@ body {
   font-size: 0.85em;
 }
 
-.claim-text a{
-  color: #1174BA;
+.claim-text a {
+  color: #1174ba;
   text-decoration: none;
 }
 
@@ -934,7 +1007,7 @@ body {
   justify-content: center;
 }
 
-.chisiamo{
+.chisiamo {
   max-width: 200px;
 }
 
@@ -942,7 +1015,7 @@ body {
   height: fit-content;
   display: flex;
   gap: 80px;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 .footer img {
@@ -1092,4 +1165,3 @@ p {
   font-size: 12px;
   line-height: 1.5;
 }
-

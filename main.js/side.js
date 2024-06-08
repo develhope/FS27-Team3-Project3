@@ -9,32 +9,48 @@ document.addEventListener("DOMContentLoaded", function () {
   const aiutoBtn = document.getElementById("aiuto");
   const aiutoList = document.getElementById("aiuto-list");
 
+  
+  function openSidebar(sideElement, listElement) {
+    
+    setTimeout(() => {
+      sideElement.style.transition = "transform 0.3s ease-in-out";
+      sideElement.classList.add("side-white-box-visible");
+    }, 1000); 
+
+    
+    setTimeout(() => {
+      listElement.style.transition = "opacity 0.3s ease-in-out";
+      listElement.classList.add("side-list-show");
+    }, 2000); 
+  }
+
+  
+  function closeSidebar(sideElement) {
+    sideElement.classList.remove("side-white-box-visible");
+  }
+
   acquista.addEventListener("click", function (event) {
-    side.classList.add("side-white-box-visible");
+    openSidebar(side, acquistaList);
     overlay.classList.add("dark-trasparency-visible");
-    acquistaList.classList.add("side-list-show");
   });
 
   scopriBtn.addEventListener("click", function (event) {
-    side.classList.add("side-white-box-visible");
+    openSidebar(side, scopriList);
     overlay.classList.add("dark-trasparency-visible");
-    scopriList.classList.add("side-list-show");
   });
 
   aiutoBtn.addEventListener("click", function (event) {
-    side.classList.add("side-white-box-visible");
+    openSidebar(side, aiutoList);
     overlay.classList.add("dark-trasparency-visible");
-    aiutoList.classList.add("side-list-show");
   });
 
   closeBtn.addEventListener("click", function () {
-    side.classList.remove("side-white-box-visible");
+    closeSidebar(side); 
+  });
+
+  
+  overlay.addEventListener("click", function () {
+    closeSidebar(side); 
     overlay.classList.remove("dark-trasparency-visible");
   });
 });
-
-// overlay.addEventListener("click", function () {
-//   side.classList.remove("side-white-box-visible");
-//   overlay.classList.remove("dark-trasparency-visible");
-// });
-// });

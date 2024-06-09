@@ -1,1058 +1,1910 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sito Lego</title>
-    <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="fonts.css" />
-    <script src="./main.js/side.js" defer></script>
-  </head>
 
-  <body>
-    <!--header bianco -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sito Lego</title>
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <script src="./Main-js/side.js" defer></script>
+  <script src="./Main-js/carosello.js" defer></script>
 
-    <div class="whiteheader">
-      <button class="buttonwh">←<span> AREA GIOCHI</span></button>
-      <div class="textwh">
-        <p class="wh-middle-text">
-          Consegna GRATUITA sugli ordini superiori a 55 €!*
-          <a href="#">Scopri di più</a>
-        </p>
+</head>
 
-        <div class="accountwh">
-          <img
-            src="risorse/01-header-bianco/account-0060a67786d24d55d3007f070b4ca626.png"
-          />
-          <p>Account</p>
-          <img src="risorse/01-header-bianco/line_649686.png" class="divider" />
-          <img
-            src="risorse/01-header-bianco/insidersOut-1007c87df3063963a6a3f7de243ac98e.svg"
-          />
-          <p>Iscriviti al programma LEGO® Insiders</p>
-        </div>
+<body>
+  <!--header bianco -->
+
+  <div class="whiteheader">
+    <button class="buttonwh">←<span> AREA GIOCHI</span></button>
+    <div class="textwh">
+      <p class="wh-middle-text">
+        Consegna GRATUITA sugli ordini superiori a 55 €!*
+        <a href="#">Scopri di più</a>
+      </p>
+
+      <div class="accountwh">
+        <img src="risorse/01-header-bianco/account-0060a67786d24d55d3007f070b4ca626.png" />
+        <p>Account</p>
+        <img src="risorse/01-header-bianco/line_649686.png" class="divider" />
+        <img src="risorse/01-header-bianco/insidersOut-1007c87df3063963a6a3f7de243ac98e.svg" />
+        <p>Iscriviti al programma LEGO® Insiders</p>
       </div>
     </div>
+  </div>
 
-    <!--header giallo -->
+  <!--header giallo -->
 
-    <header class="header-g">
-      <div class="header-g-logo">
-        <a href="project3.html"
-          ><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo"
-        /></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#" id="acquista">ACQUISTA</a></li>
-          <li><a href="#" id="scopri">SCOPRI</a></li>
-          <li><a href="#" id="aiuto">AIUTO</a></li>
-        </ul>
-      </nav>
-      <div class="header-g-icons">
-        <form>
-          <button
-            type="submit"
-            style="
+  <header class="header-g">
+    <div class="header-g-logo">
+      <a href="project3.html"><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo" /></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" id="acquista">ACQUISTA</a></li>
+        <li><a href="#" id="scopri">SCOPRI</a></li>
+        <li><a href="#" id="aiuto">AIUTO</a></li>
+      </ul>
+    </nav>
+    <div class="header-g-icons">
+      <form>
+        <button type="submit" style="
               background-color: transparent;
               border: none;
               position: relative;
-            "
-          >
-            <img
-              src="risorse/02-header-giallo/search.png"
-              style="height: 40px"
-            />
-          </button>
-        </form>
-        <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
-        <a href="#"
-          ><img src="risorse/02-header-giallo/shop.png" alt="" /><sup
-            >(0)</sup
-          ></a
-        >
-      </div>
-    </header>
+            ">
+          <img src="risorse/02-header-giallo/search.png" style="height: 40px" />
+        </button>
+      </form>
+      <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
+      <a href="#"><img src="risorse/02-header-giallo/shop.png" alt="" /><sup>(0)</sup></a>
+    </div>
+  </header>
 
-    <!--sidebar-->
-    <div id="vp-box" class="vp-box">
-      <div class="dark-trasparency" id="overlay">
-        <div class="side-white-box" id="sidebar">
-          <div><button id="close-btn" class="close-btn"><svg class="btn-X" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-</svg></button></div>
-          <div class="side-bar-head">
-            <img
-              src="risorse/02-header-giallo/LEGO_logo.png"
-              class="logo-side-bar"
-              alt="logo"
-            />
-            <div class="nav-side-bar">
-              <a href="#">ACQUISTA</a>
-              <a href="#" id="scopri">SCOPRI</a>
-              <a href="#" id="aiuto">AIUTO</a>
+  <!--sidebar-->
+  <div id="vp-box" class="vp-box">
+    <div class="dark-trasparency" id="overlay">
+      <div class="side-white-box" id="sidebar">
+        <div><button id="close-btn" class="close-btn"><svg class="btn-X" xmlns="http://www.w3.org/2000/svg" width="30"
+              height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg></button></div>
+        <div class="side-bar-head">
+          <img src="risorse/02-header-giallo/LEGO_logo.png" class="logo-side-bar" alt="logo" />
+          <div class="nav-side-bar">
+            <a href="#">ACQUISTA</a>
+            <a href="#" id="scopri">SCOPRI</a>
+            <a href="#" id="aiuto">AIUTO</a>
+          </div>
+        </div>
+        <!--Acquista lista menù-->
+        <div class="side-list" id="acquista-list">
+          <a href="#">Set per tema
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Età
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Prezzi
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Merchandising Lego
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Interessi
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Pick and Build
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+
+          <a href="#">Novità</a>
+          <a href="#">I più venduti</a>
+          <a href="#">Accessori per la casa</a>
+          <a href="./OFFER AND SALES/offer-&-sale.html">Sconti e offerte</a>
+          <a href="#">Carte regalo</a>
+          <a href="#">Disponibile a breve</a>
+          <a href="#">Trova l'ispirazione</a>
+          <a href="#">Ultima occasione per acquistarli</a>
+        </div>
+        <!--Scopri lista menù-->
+        <div class="side-list" id="scopri-list">
+          <a href="#">I nostri valori
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Le nostre app
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Le nostre riviste
+            <svg viewBox="0 0 40 40" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg></a>
+          <a href="#">Tutti i temi LEGO</a>
+          <a href="#">Tutti gli interessi LEGO</a>
+          <a href="#">Trova l'ispirazione</a>
+          <a href="#">Tutti i temi LEGO</a>
+          <a href="#">Per gli adulti</a>
+          <a href="#">Per le famiglie</a>
+          <a href="#">LEGO® Fortnite®</a>
+          <a href="./LEGO INSIDER/lego-insider.html">LEGO® Insiders</a>
+          <a href="#">LEGO® Mosaic Maker</a>
+          <a href="#">Idee regalo LEGO®</a>
+        </div>
+        <div class="side-list" id="aiuto-list">
+          <a href="SITO LEGO STATO ORDINE\statoOrdine.html">Verifica stato ordine</a>
+          <a href="#">Consegne e resi</a>
+          <a href="#">Trova uno store</a>
+          <a href="#">Istruzioni per la costruzione</a>
+          <a href="#">Domande frequenti</a>
+          <a href="#">Contattaci</a>
+          <a href="#">Pezzi di ricambio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--DnD banner-->
+
+  <article class="dnd-container" id="top-section">
+    <div class="dnd-content">
+      <img class="dnd-logo-banner" src="risorse/03-banner-dnd/dungeons-and-dragons-logo-600w.png" />
+      <p>Costruisci un'avventura come mai prima d'ora</p>
+      <p>
+        Parti per un'epica missione con il nuovo set Dungeons & Dragons: Il
+        racconto del Drago Rosso.
+      </p>
+      <span class="dnd-bottone">
+        <button class="dnd-bottone">
+          Scopri di più
+          <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+          </svg>
+        </button>
+        <button class="dnd-bottone">
+          Compra ora
+          <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+          </svg>
+        </button>
+      </span>
+    </div>
+  </article>
+
+  <!--Cards piccole-->
+
+  <div class="small-cards">
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-New.webp" alt="Novità" />
+        <p>Novità</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Exclusive.webp"
+          alt="Set esclusivi" />
+        <p>Set esclusivi</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Offer.webp" alt="Offerte" />
+        <p>Offerte</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="./OFFER AND SALES/offer-&-sale.html">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Flowers.webp" alt="LEGO® Icons" />
+        <p>LEGO® Icons</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Gumdrop-Home-202312-Quicklink.webp" alt="Disney™" />
+        <p>Disney™</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Batman.webp" alt="Ideas" />
+        <p>Ideas</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="#">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Wheel.webp" alt="Spazio" />
+        <p>Spazio</p>
+      </a>
+    </div>
+    <div class="small-card">
+      <a href="./LEGO INSIDER/lego-insider.html">
+        <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Insiders.webp"
+          alt="LEGO® Insiders" />
+        <p>LEGO® Insiders</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Set in evidenza -->
+
+  <section class="carosello-in-evidenza">
+    <div class="cie-container">
+      <p class="cie-title">Set in Evidenza</p>
+
+      <div class="cie-button-container ">
+        <button class="cie-button-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+          </svg>
+        </button>
+
+        <div class="cie-card-container">
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/21348.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Dungeons & Dragons: Il racconto del Drago Rosso
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/halfStar-9b6a3da7ddc2090ed53e3a4c39cfa182.svg">
+              </div>
+              <p class="cie-card-price">
+                359,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
             </div>
           </div>
-          <!--Acquista lista menù-->
-          <div class="side-list" id="acquista-list">
-            <a href="#"
-              >Set per tema
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Età
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Prezzi
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Merchandising Lego
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Interessi
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Pick and Build
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
 
-            <a href="#">Novità</a>
-            <a href="#">I più venduti</a>
-            <a href="#">Accessori per la casa</a>
-            <a href="./OFFER AND SALES/offer-&-sale.html">Sconti e offerte</a>
-            <a href="#">Carte regalo</a>
-            <a href="#">Disponibile a breve</a>
-            <a href="#">Trova l'ispirazione</a>
-            <a href="#">Ultima occasione per acquistarli</a>
-          </div>
-          <!--Scopri lista menù-->
-          <div class="side-list" id="scopri-list">
-            <a href="#"
-              >I nostri valori
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
                 <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Le nostre app
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#"
-              >Le nostre riviste
-              <svg
-                viewBox="0 0 40 40"
-                fill="black"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                /></svg
-            ></a>
-            <a href="#">Tutti i temi LEGO</a>
-            <a href="#">Tutti gli interessi LEGO</a>
-            <a href="#">Trova l'ispirazione</a>
-            <a href="#">Tutti i temi LEGO</a>
-            <a href="#">Per gli adulti</a>
-            <a href="#">Per le famiglie</a>
-            <a href="#">LEGO® Fortnite®</a>
-            <a href="./LEGO INSIDER/lego-insider.html">LEGO® Insiders</a>
-            <a href="#">LEGO® Mosaic Maker</a>
-            <a href="#">Idee regalo LEGO®</a>
-          </div>
-          <div class="side-list" id="aiuto-list">
-            <a href="SITO LEGO STATO ORDINE\statoOrdine.html"
-              >Verifica stato ordine</a
-            >
-            <a href="#">Consegne e resi</a>
-            <a href="#">Trova uno store</a>
-            <a href="#">Istruzioni per la costruzione</a>
-            <a href="#">Domande frequenti</a>
-            <a href="#">Contattaci</a>
-            <a href="#">Pezzi di ricambio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--DnD banner-->
-
-    <article class="dnd-container" id="top-section">
-      <div class="dnd-content">
-        <img
-          class="dnd-logo-banner"
-          src="risorse/03-banner-dnd/dungeons-and-dragons-logo-600w.png"
-        />
-        <p>Costruisci un'avventura come mai prima d'ora</p>
-        <p>
-          Parti per un'epica missione con il nuovo set Dungeons & Dragons: Il
-          racconto del Drago Rosso.
-        </p>
-        <span class="dnd-bottone">
-          <button class="dnd-bottone">
-            Scopri di più
-            <svg
-              viewBox="0 0 40 40"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-              />
-            </svg>
-          </button>
-          <button class="dnd-bottone">
-            Compra ora
-            <svg
-              viewBox="0 0 40 40"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-              />
-            </svg>
-          </button>
-        </span>
-      </div>
-    </article>
-
-    <!--Cards piccole-->
-
-    <div class="small-cards">
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-New.webp"
-            alt="Novità"
-          />
-          <p>Novità</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Exclusive.webp"
-            alt="Set esclusivi"
-          />
-          <p>Set esclusivi</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Offer.webp"
-            alt="Offerte"
-          />
-          <p>Offerte</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="./OFFER AND SALES/offer-&-sale.html">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Flowers.webp"
-            alt="LEGO® Icons"
-          />
-          <p>LEGO® Icons</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Gumdrop-Home-202312-Quicklink.webp"
-            alt="Disney™"
-          />
-          <p>Disney™</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Batman.webp"
-            alt="Ideas"
-          />
-          <p>Ideas</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="#">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Wheel.webp"
-            alt="Spazio"
-          />
-          <p>Spazio</p>
-        </a>
-      </div>
-      <div class="small-card">
-        <a href="./LEGO INSIDER/lego-insider.html">
-          <img
-            src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Insiders.webp"
-            alt="LEGO® Insiders"
-          />
-          <p>LEGO® Insiders</p>
-        </a>
-      </div>
-    </div>
-
-    <!--Preferiti della settimana-->
-
-    <main class="favourite-of-week">
-      <div class="fow-title">
-        <p>I preferiti di questa settimana</p>
-      </div>
-      <div class="fow-articles">
-        <article>
-          <a href="#">
-            <img
-              src="risorse/06-preferiti-settimana/despicableMe4-article-1.webp"
-            />
-            <p class="fow-article-title">Unisciti ai dispettosi Minions</p>
-            <p class="fow-testo-card">
-              Dai vita alla vita di Gru con i nuovi set Cattivissimo Me 4
-              LEGO<sup>®</sup>.
-            </p>
-          </a>
-          <form action="#">
-            <button type="submit" class="fow-article-button">
-              Compra ora
-              <svg
-                viewBox="0 0 40 40"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                />
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
               </svg>
-            </button>
-          </form>
-        </article>
-        <article>
-          <a href="#">
-            <img
-              src="risorse/06-preferiti-settimana/McLaren-Anton-Senna.webp"
-            />
-            <p class="fow-article-title">Accendi il tuo entusiasmo creativo</p>
-            <p class="fow-testo-card">
-              Celebra il mondo degli sport motoristici con i nuovi set LEGO<sup
-                >®</sup
-              >
-              icons.
-            </p>
-          </a>
-          <form action="#">
-            <button type="submit" class="fow-article-button">
-              Compra ora
-              <svg
-                viewBox="0 0 40 40"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <img src="risorse/05-primo-carosello/10332.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Piazza della città medievale
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/halfStar-9b6a3da7ddc2090ed53e3a4c39cfa182.svg">
+              </div>
+              <p class="cie-card-price">
+                229,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
                 <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                />
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
               </svg>
-            </button>
-          </form>
-        </article>
-        <article>
-          <a href="#">
-            <img
-              src="risorse/06-preferiti-settimana/Minifigures-article-1.png"
-            />
-            <p class="fow-article-title">Parti per avventure intergalattiche</p>
-            <p class="fow-testo-card">
-              Aggiungi i nuovi personaggi Serie 26 - Spazio LEGO
-              <sup>®</sup> Minifigures alla tua collezione.
-            </p>
-          </a>
-          <form action="#">
-            <button type="submit" class="fow-article-button">
-              Compra ora
-              <svg
-                viewBox="0 0 40 40"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <img src="risorse/05-primo-carosello/42171.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Mercedes-AMG F1 W14 E Performance
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/halfStar-9b6a3da7ddc2090ed53e3a4c39cfa182.svg">
+              </div>
+              <p class="cie-card-price">
+                219,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
                 <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                />
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
               </svg>
-            </button>
-          </form>
-        </article>
-      </div>
-    </main>
+              <img src="risorse/05-primo-carosello/43242.webp">
 
-    <!--cookies-->
-
-    <div class="cookies-box">
-      <div class="cookies">
-        <img
-          class="image-cookie"
-          src="risorse/08-cookies/cookieguy-a8400ece3d416842cb83d9f1efc22662.png"
-        />
-        <div class="cookies-testi">
-          <p>
-            Aiutaci a creare per te una fantastica esperienza personalizzata!
-          </p>
-          <p>
-            Aiutaci a creare per te una fantastica esperienza personalizzata per
-            te! Fornisci il consenso per l'utilizzo dei cookie del sito e noi
-            creeremo per te un'esperienza fantastica!
-          </p>
-          <span class="cookies-link">
-            <a href="#">Procediamo</a>
-            <a href="#">Maggiori informazioni</a>
-          </span>
-        </div>
-        <img
-          class="bisquits"
-          src="risorse/08-cookies/cookies-afb23abdf31dc35a6f446c474ef33678.png"
-        />
-      </div>
-    </div>
-
-    <!--videobanner-->
-
-    <article class="video-banner">
-      <video
-        class="vb-video"
-        autoplay
-        loop
-        muted
-        src="risorse/09-banner-video/Large-Space-42180-202407-Home-Hero-Standard.mp4"
-      ></video>
-      <span class="vb-elements">
-        <p class="vb-caption">Esplora lo spazio e costruisci sul serio</p>
-        <div class="vb-buttons">
-          <button>
-            Compra ora
-            <svg
-              viewBox="0 0 40 40"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-              />
-            </svg>
-          </button>
-          <button>
-            Esplora
-            <svg
-              viewBox="0 0 40 40"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-              />
-            </svg>
-          </button>
-        </div>
-      </span>
-      <img
-        class="vb-logo"
-        src="risorse/09-banner-video/technic_logo_pos_300w.png"
-      />
-    </article>
-
-    <!--tendenze-->
-
-    <main class="tendenze">
-      <div class="tendenze-title">
-        <p>Esplora altri set dedicati allo spazio</p>
-      </div>
-      <div tendenze-container>
-        <div class="tendenze-articles">
-          <article>
-            <a href="#">
-              <img
-                src="risorse/10-tendenze/Space-42979-Home-202407-Block-Standard.png"
-              />
-              <p class="tendenze-article-title">
-                Esplora lo spazio e costruisci sul serio
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Il cottage di Biancaneve e i Sette Nani
               </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="tendenze-article-button">
-                Compra ora
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                219,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
               </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img
-                src="risorse/10-tendenze/Space-42605-Home-202407-Block-Standard.png"
-              />
-              <p class="tendenze-article-title">
-                Set spaziali per inventare storie
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/76271.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Batman: Serie animata Gotham City <sup>TM</sup>
               </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="tendenze-article-button">
-                Compra ora
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                299,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
               </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img
-                src="risorse/10-tendenze/Space-10422-Home-202407-Block-Standard.png"
-              />
-              <p class="tendenze-article-title">
-                Divertimento spaziale per i piccoli esploratori
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10328.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Bouquet di rose
               </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="tendenze-article-button">
-                Compra ora
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                59,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
               </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img
-                src="risorse/10-tendenze/Space-KV-Home-202407-Block-Standard.webp"
-              />
-              <p class="tendenze-article-title">
-                Regala infiniti modi per esplorare lo spazio
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10294.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Titanic LEGO®
               </p>
-              <p class="tendenze-testo-card">
-                Trova i set LEGO<sup>®</sup> che ti permettono di portare le
-                meraviglie dello spazio a casa con te.
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                679,99€
               </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="tendenze-article-button">
-                Compra ora
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
               </button>
-            </form>
-          </article>
-        </div>
-      </div>
-    </main>
+            </div>
+          </div>
 
-    <!--piccolo banner-->
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10316_alt16.webp">
 
-    <div class="small-banner">
-      <div class="sb-header">
-        <div class="sb-header-content">
-          <p class="sb-text">Scopri le offerte speciali in corso</p>
-          <button class="sb-button">
-            <a href="./OFFER AND SALES/offer-&-sale.html">Scopri di più </a>
-            <svg
-              viewBox="0 0 40 40"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="sb-under">
-      <img
-        src="risorse/11-piccolo-banner/Space-Home-202407-Inpage-Nav-Large-Logo.jpeg"
-      />
-    </div>
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                IL SIGNORE DEGLI ANELLI: GRAN BURRONE
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                499,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
 
-    <!-- cards grandi-->
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/76417.webp">
 
-    <div class="cards-grandi">
-      <div class="cg-container">
-        <div class="cg-text">
-          <p>Trova l'ispirazione, condividi la tua creazione</p>
-          <p>
-            Pubblica le tue foto su Instagram, menziona LEGO<sup>®</sup>
-            nella didascalia per avere la possibilità di apparire sul sito Web e
-            acquista i set che ti piacciono di seguito.
-          </p>
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Banca dei Maghi Gringott<sup>TM</sup> - Edizione del Collezionista
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                429,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/77050.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Bottega di Nook e casa di Grinfia
+              </p>
+              <p class="cie-card-price">
+                74,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10327.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Dune Atreides Ornitottero Reale
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                164,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/43222.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Castello Disney
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                399,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10311.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Orchidea
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                49,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10329.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Piantine
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                49,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10326.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Museo di Storia Naturale
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/halfStar-9b6a3da7ddc2090ed53e3a4c39cfa182.svg">
+              </div>
+              <p class="cie-card-price">
+                299,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10297_Prod.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Boutique Hotel
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                229,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/76269.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Torre degli Avengers
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                499,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10283.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                NASA Space Shuttle Discovery
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                199,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-disney-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/77049.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Benvenuta, Fuffi!
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                39,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="cie-card">
+            <div class="cie-card-img cie-tower-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/05-primo-carosello/10307.webp">
+
+            </div>
+            <div class="cie-bottom">
+              <p class="cie-card-title">
+                Tour Eiffel
+              </p>
+              <div class="cie-card-stars">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+                <img src="risorse/05-primo-carosello/starActive-8f24279ea4ef0bb5bb5e8af9fbab2aab.svg">
+              </div>
+              <p class="cie-card-price">
+                629,99€
+              </p>
+              <button class="cie-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+
         </div>
-        <div class="cg-images">
-          <img
-            src="risorse/12-cards-grandi/UGC-Page-2312-Orc-Grid-Image.jpeg"
-          />
-          <img
-            src="risorse/12-cards-grandi/UGC-Page-2312-Dogs-Grid-Image.jpeg"
-          />
-          <img src="risorse/12-cards-grandi/UGC-Page-2312-AF-Grid-Image.jpeg" />
-          <img
-            src="risorse/12-cards-grandi/UGC-Page-2312-Car-Grid-Image.jpeg"
-          />
-        </div>
-        <button class="cg-button">
-          Compra ora
-          <svg
-            viewBox="0 0 40 40"
-            fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-            />
+
+        <button class="cie-button-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
           </svg>
         </button>
       </div>
     </div>
+  </section>
 
-    <!--In evidenza-->
+  <!--Preferiti della settimana-->
 
-    <article class="ie-main-box">
-      <div class="in-evidenza-box">
-        <p>In evidenza...</p>
-      </div>
+  <main class="favourite-of-week">
+    <div class="fow-title">
+      <p>I preferiti di questa settimana</p>
+    </div>
+    <div class="fow-articles">
+      <article>
+        <a href="#">
+          <img src="risorse/06-preferiti-settimana/despicableMe4-article-1.webp" />
+          <p class="fow-article-title">Unisciti ai dispettosi Minions</p>
+          <p class="fow-testo-card">
+            Dai vita alla vita di Gru con i nuovi set Cattivissimo Me 4
+            LEGO<sup>®</sup>.
+          </p>
+        </a>
+        <form action="#">
+          <button type="submit" class="fow-article-button">
+            Compra ora
+            <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg>
+          </button>
+        </form>
+      </article>
+      <article>
+        <a href="#">
+          <img src="risorse/06-preferiti-settimana/McLaren-Anton-Senna.webp" />
+          <p class="fow-article-title">Accendi il tuo entusiasmo creativo</p>
+          <p class="fow-testo-card">
+            Celebra il mondo degli sport motoristici con i nuovi set LEGO<sup>®</sup>
+            icons.
+          </p>
+        </a>
+        <form action="#">
+          <button type="submit" class="fow-article-button">
+            Compra ora
+            <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg>
+          </button>
+        </form>
+      </article>
+      <article>
+        <a href="#">
+          <img src="risorse/06-preferiti-settimana/Minifigures-article-1.png" />
+          <p class="fow-article-title">Parti per avventure intergalattiche</p>
+          <p class="fow-testo-card">
+            Aggiungi i nuovi personaggi Serie 26 - Spazio LEGO
+            <sup>®</sup> Minifigures alla tua collezione.
+          </p>
+        </a>
+        <form action="#">
+          <button type="submit" class="fow-article-button">
+            Compra ora
+            <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg>
+          </button>
+        </form>
+      </article>
+    </div>
+  </main>
 
-      <div class="ie-boxes">
-        <div class="ie-pink">
-          <div class="insider-section-pink">
-            <p class="head-insider-ie">Diventa LEGO<sup>®</sup> Insider</p>
-            <p class="caption-insider-ie">
-              Accedi a fantastici premi, sconti, community e altro ancora.
-            </p>
-            <a href="#"
-              >Diventa un socio
-              <svg
-                viewBox="0 0 40 40"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+  <!-- Cosa stanno comprando gli altri-->
+
+  <section class="secondo-carosello">
+    <div class="sc-container">
+      <p class="sc-title">Cosa stanno comprando gli altri</p>
+
+      <div class="sc-button-container ">
+        <button class="sc-button-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+          </svg>
+        </button>
+
+        <div class="sc-card-container">
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
                 <path
-                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                />
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/1-albero.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Grande Albero Deku 2-in-1
+                </p>
+                <p class="sc-card-price">
+                  299,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/2-simba.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Giovane Simba, Re Leone
+                </p>
+                <p class="sc-card-price">
+                  129,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/3-NASA.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Sistema di lancio spaziale NASA Artemis
+                </p>
+                <p class="sc-card-price">
+                  259,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/4-Hogwarts.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Castello di Hogwarts<sup>TM</sup>: Sala Grande
+                </p>
+                <p class="sc-card-price">
+                  199,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img sc-gatto">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/5-Gatto.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Gatto Tuxedo
+                </p>
+                <p class="sc-card-price">
+                  99,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/6-Mercedes.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Mercedes-AMG G 63 e Mercedes-AMG SL 63
+                </p>
+                <p class="sc-card-price">
+                  49,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/7-Fierobecco.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Fierobecco
+                </p>
+                <p class="sc-card-price">
+                  59,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/8-Mandragola.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Mandragola
+                </p>
+                <p class="sc-card-price">
+                  69,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/9-Via-Lattea.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Via Lattea
+                </p>
+                <p class="sc-card-price">
+                  199,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/10-Torneo.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Torneo dei Tremaghi: l'Arrivo
+                </p>
+                <p class="sc-card-price">
+                  139,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/11-Scacchiera.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Scacchiera tradizionale
+                </p>
+                <p class="sc-card-price">
+                  74,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-img">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" alt=""
+                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                <path class="path-1"
+                  d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+                <path
+                  d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                  fill="#006DB7"></path>
+              </svg>
+              <img src="risorse/07-secondo-carosello/12-Up.webp">
+
+            </div>
+            <div class="sc-bottom">
+              <div class="sc-text">
+                <p class="sc-card-title">
+                  Carl, Russel e Kevin
+                </p>
+                <p class="sc-card-price">
+                  19,99€
+                </p>
+              </div>
+              <button class="sc-card-button">
+                <p>Aggiungi al Carrello</p>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="sc-button-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!--cookies-->
+
+  <div class="cookies-box">
+    <div class="cookies">
+      <img class="image-cookie" src="risorse/08-cookies/cookieguy-a8400ece3d416842cb83d9f1efc22662.png" />
+      <div class="cookies-testi">
+        <p>
+          Aiutaci a creare per te una fantastica esperienza personalizzata!
+        </p>
+        <p>
+          Aiutaci a creare per te una fantastica esperienza personalizzata per
+          te! Fornisci il consenso per l'utilizzo dei cookie del sito e noi
+          creeremo per te un'esperienza fantastica!
+        </p>
+        <span class="cookies-link">
+          <a href="#">Procediamo</a>
+          <a href="#">Maggiori informazioni</a>
+        </span>
+      </div>
+      <img class="bisquits" src="risorse/08-cookies/cookies-afb23abdf31dc35a6f446c474ef33678.png" />
+    </div>
+  </div>
+
+  <!--videobanner-->
+
+  <article class="video-banner">
+    <video class="vb-video" autoplay loop muted
+      src="risorse/09-banner-video/Large-Space-42180-202407-Home-Hero-Standard.mp4"></video>
+    <span class="vb-elements">
+      <p class="vb-caption">Esplora lo spazio e costruisci sul serio</p>
+      <div class="vb-buttons">
+        <button>
+          Compra ora
+          <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+          </svg>
+        </button>
+        <button>
+          Esplora
+          <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+          </svg>
+        </button>
+      </div>
+    </span>
+    <img class="vb-logo" src="risorse/09-banner-video/technic_logo_pos_300w.png" />
+  </article>
+
+  <!--tendenze-->
+
+  <main class="tendenze">
+    <div class="tendenze-title">
+      <p>Esplora altri set dedicati allo spazio</p>
+    </div>
+    <div tendenze-container>
+      <div class="tendenze-articles">
+        <article>
+          <a href="#">
+            <img src="risorse/10-tendenze/Space-42979-Home-202407-Block-Standard.png" />
+            <p class="tendenze-article-title">
+              Esplora lo spazio e costruisci sul serio
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="tendenze-article-button">
+              Compra ora
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/10-tendenze/Space-42605-Home-202407-Block-Standard.png" />
+            <p class="tendenze-article-title">
+              Set spaziali per inventare storie
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="tendenze-article-button">
+              Compra ora
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/10-tendenze/Space-10422-Home-202407-Block-Standard.png" />
+            <p class="tendenze-article-title">
+              Divertimento spaziale per i piccoli esploratori
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="tendenze-article-button">
+              Compra ora
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/10-tendenze/Space-KV-Home-202407-Block-Standard.webp" />
+            <p class="tendenze-article-title">
+              Regala infiniti modi per esplorare lo spazio
+            </p>
+            <p class="tendenze-testo-card">
+              Trova i set LEGO<sup>®</sup> che ti permettono di portare le
+              meraviglie dello spazio a casa con te.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="tendenze-article-button">
+              Compra ora
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!--piccolo banner-->
+
+  <div class="small-banner">
+    <div class="sb-header">
+      <div class="sb-header-content">
+        <p class="sb-text">Scopri le offerte speciali in corso</p>
+        <button class="sb-button">
+          <a href="./OFFER AND SALES/offer-&-sale.html">Scopri di più </a>
+          <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sb-under">
+    <img src="risorse/11-piccolo-banner/Space-Home-202407-Inpage-Nav-Large-Logo.jpeg" />
+  </div>
+
+  <!-- cards grandi-->
+
+  <div class="cards-grandi">
+    <div class="cg-container">
+      <div class="cg-text">
+        <p>Trova l'ispirazione, condividi la tua creazione</p>
+        <p>
+          Pubblica le tue foto su Instagram, menziona LEGO<sup>®</sup>
+          nella didascalia per avere la possibilità di apparire sul sito Web e
+          acquista i set che ti piacciono di seguito.
+        </p>
+      </div>
+      <div class="cg-images">
+        <img src="risorse/12-cards-grandi/UGC-Page-2312-Orc-Grid-Image.jpeg" />
+        <img src="risorse/12-cards-grandi/UGC-Page-2312-Dogs-Grid-Image.jpeg" />
+        <img src="risorse/12-cards-grandi/UGC-Page-2312-AF-Grid-Image.jpeg" />
+        <img src="risorse/12-cards-grandi/UGC-Page-2312-Car-Grid-Image.jpeg" />
+      </div>
+      <button class="cg-button">
+        Compra ora
+        <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!--In evidenza-->
+
+  <article class="ie-main-box">
+    <div class="in-evidenza-box">
+      <p>In evidenza...</p>
+    </div>
+
+    <div class="ie-boxes">
+      <div class="ie-pink">
+        <div class="insider-section-pink">
+          <p class="head-insider-ie">Diventa LEGO<sup>®</sup> Insider</p>
+          <p class="caption-insider-ie">
+            Accedi a fantastici premi, sconti, community e altro ancora.
+          </p>
+          <a href="#">Diventa un socio
+            <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+            </svg>
+          </a>
+        </div>
+
+        <img class="ie-insiders-img" src="risorse/13-in-evidenza/Insiders1-202404-Page-Content-Block-Mixed-Large.webp"
+          alt="persone che costruiscono LEGO" />
+      </div>
+      <div class="ie-arancio-azzurro">
+        <div class="ie-orange">
+          <div class="gift-section-orange">
+            <p class="gift-head-ie">Lascia scegliere a loro</p>
+            <p class="gift-caption-ie">
+              Un buono LEGO<sup>®</sup> è sempre la soluzione perfetta.
+            </p>
+            <a href="#">
+              Compra ora
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
               </svg>
             </a>
           </div>
 
-          <img
-            class="ie-insiders-img"
-            src="risorse/13-in-evidenza/Insiders1-202404-Page-Content-Block-Mixed-Large.webp"
-            alt="persone che costruiscono LEGO"
-          />
-        </div>
-        <div class="ie-arancio-azzurro">
-          <div class="ie-orange">
-            <div class="gift-section-orange">
-              <p class="gift-head-ie">Lascia scegliere a loro</p>
-              <p class="gift-caption-ie">
-                Un buono LEGO<sup>®</sup> è sempre la soluzione perfetta.
-              </p>
-              <a href="#">
-                Compra ora
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </a>
-            </div>
-
-            <img
-              class="ie-gift"
-              src="risorse/13-in-evidenza/GiftCard-202404-Page-Content-Block-Mixed-Small.webp"
-              alt="gift card"
-            />
-          </div>
-
-          <div class="ie-azzurro">
-            <div class="build-section-ie">
-              <p class="build-head-ie">Build Together</p>
-              <p class="build-caption-ie">
-                L'app ha anche una funzione che ti permette di completare grandi
-                modelli facendo squadra con gli amici...
-              </p>
-              <a href="#"
-                >Scopri di più
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </a>
-            </div>
-
-            <img
-              class="ie-build-img"
-              src="risorse/13-in-evidenza/Builderapp-202404-Page-Content-Block-Mixed-Small.webp"
-              alt="build together"
-            />
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <!--Leggi tutto-->
-
-    <main class="leggi-tutto">
-      <div class="lt-container">
-        <div class="lt-title">
-          <p>Leggi tutto</p>
-        </div>
-        <div class="lt-articles">
-          <article>
-            <a href="#">
-              <img src="risorse/14-leggi-tutto/Hero_Banner_-_Mobile.webp" />
-              <p class="lt-article-title">
-                I migliori regali LEGO<sup>®</sup> per gli appassionati di auto
-              </p>
-              <p class="lt-testo-card">
-                Da iconiche repliche di supercar a set con fuoristrada pieni di
-                azione, nella nostra vasta collezione LEGO<sup>®</sup> puoi
-                trovare i regali perfetti per gli appassionati di auto di tutte
-                le età.
-              </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="lt-article-button">
-                Leggi di più
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img
-                src="risorse/14-leggi-tutto/2024_Hero_Banner_-_Mobile.webp"
-              />
-              <p class="lt-article-title">
-                Piccoli set LEGO<sup>®</sup><i>Star Wars</i><sup>™</sup>
-              </p>
-              <p class="lt-testo-card">
-                Esplora la nostra collezione di piccoli set LEGO<sup>®</sup
-                ><i>Star Wars</i><sup>™</sup>
-                per trovare lo scenario in miniatura perfetto per le tue
-                avventure galattiche.
-              </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="lt-article-button">
-                Leggi di più
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img
-                src="risorse/14-leggi-tutto/2024_Hero_Banner_-_Mobile (1).webp"
-              />
-              <p class="lt-article-title">
-                I migliori regali <i>Star Wars</i><sup>™</sup> per bambini e
-                ragazzi
-              </p>
-              <p class="lt-testo-card">
-                Ecco alcuni dei migliori regali <i>Star Wars</i><sup>™</sup> per
-                i bambini da costruire e con cui giocare! Fai clic per saperne
-                di più.
-              </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="lt-article-button">
-                Leggi di più
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </button>
-            </form>
-          </article>
-          <article>
-            <a href="#">
-              <img src="risorse/14-leggi-tutto/HERO_Mobile.webp" />
-              <p class="lt-article-title">
-                Le migliori idee regalo <i>Star Wars</i><sup>™</sup> per gli
-                adulti
-              </p>
-              <p class="lt-testo-card">
-                Usa il potere della forza per fare i doni più incredibili della
-                galassia! Queste sono alcune delle migliori idee regalo
-                <i>Star Wars</i><sup>™</sup>
-                per gli adulti in grado di dominare il proprio destino.
-              </p>
-            </a>
-            <form action="#">
-              <button type="submit" class="lt-article-button">
-                Leggi di più
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </button>
-            </form>
-          </article>
-        </div>
-      </div>
-    </main>
-
-    <!--claim-->
-    <div class="claim">
-      <div class="claim-container">
-        <p class="claim-text">
-          Ti diamo il benvenuto nel LEGO<sup>®</sup> Shop ufficiale, dove
-          troverai giocattoli da costruzione LEGO, <a href="#">regali</a>,
-          splendidi set da esposizione e molto altro ancora per
-          <a href="#">bambini</a> e adulti. Trova il regalo perfetto per
-          bambini, ragazzi e adulti, per festeggiare i
-          <a href="#">compleanni</a> o altre occasioni come
-          <a href="#">San Valentino</a>, la <a href="#">Festa della mamma</a> e
-          la <a href="#">Festa del papà</a>. Con noi è facile acquistare
-          giocattoli che garantiscono ore di gioco all'insegna del divertimento
-          e della fantasia. Puoi anche trovare
-          <a href="#">set LEGO per gli adulti</a>, perfetti per ogni tipo di
-          <a href="#">interessi</a> come <a href="#">auto</a>,
-          <a href="#">fiori</a>, <a href="#">videogiochi</a> e molto ancora!
-        </p>
-      </div>
-    </div>
-
-    <!--footer-->
-
-    <div class="upper-footer">
-      <div class="footer">
-        <div class="first-column-footer">
-          <div class="textfooter">
-            <img src="risorse/15-footer/brand-lego.svg" alt="LEGO_logo" />
-            <button>italia</button>
-            <a href="#"> Buoni regalo </a>
-            <a href="#"> Trova l'ispirazione </a>
-            <a href="#"> Cataloghi LEGO </a>
-            <a href="#"> Trova un negozio LEGO </a>
-          </div>
-        </div>
-        <div class="container-footer">
-          <div class="textfooter chisiamo">
-            <p>CHI SIAMO</p>
-            <a href="#"> Informazioni su LEGO Group </a>
-            <a href="#"> Sala stampa LEGO® </a>
-            <a href="#"> Sostenibilità </a>
-            <a href="#">
-              Dichiarazione sulla trasparenza della catena di fornitura
-            </a>
-            <a href="#"> Certificazioni dei prodotti LEGO </a>
-            <a href="#"> Carriere LEGO </a>
-            <a href="#"> Segnalazioni sulla conformità LEGO </a>
-          </div>
-          <div class="textfooter">
-            <p>SUPPORTO</p>
-            <a href="#"> Contattaci </a>
-            <a href="#"> Istruzioni </a>
-            <a href="#"> Parti mancanti </a>
-            <a href="./SITO LEGO SPEDIZIONE E RESI/spedizioni.html">
-              Spedizione e resi
-            </a>
-            <a href="#"> Modalità di pagamento </a>
-            <a href="#"> Termini e condizioni </a>
-            <a href="#"> Richiamo prodotti </a>
-          </div>
-          <div class="textfooter">
-            <p>ATTRAZIONI</p>
-            <a href="#"> LEGO® House </a>
-            <a href="#"> LEGOLAND® Parks </a>
-            <a href="#"> LEGOLAND Discovery Center </a>
-          </div>
-          <div class="textfooter">
-            <p>ALTRE INFORMAZIONI</p>
-            <a href="#"> LEGO® LIFE</a>
-            <a href="#"> LEGO Education</a>
-            <a href="#"> LEGO Ideas</a>
-            <a href="#"> LEGO Foundation</a>
-            <a href="#"> Programma di affiliazione</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="lower-footer">
-      <div class="lf-elements">
-        <div class="social-footer">
-          <div class="iscriviti-footer">
-            <p>ISCRIVITI ALLE E-MAIL DI MARKETING</p>
-            <div class="iscriviti-elements">
-              <input type="text" placeholder="il tuo indirizzo e-mail" />
-              <button>
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="seguicifooter">
-            <p>SEGUICI</p>
-            <div class="logo-social-footer">
-              <img
-                src="risorse/15-footer/facebook-895fba5a20c4facacb9655dade1d256c.svg"
-              />
-              <img
-                src="risorse/15-footer/twitter-4bee8e762dd6042960b804964fd64103.svg"
-              />
-              <img
-                src="risorse/15-footer/instagram-e47f0d4b15ff76083b415be91e96f43b.svg"
-              />
-              <img
-                src="risorse/15-footer/youtube-c51b2c62583921aae813fdc55df5f9d2.svg"
-              />
-            </div>
-          </div>
+          <img class="ie-gift" src="risorse/13-in-evidenza/GiftCard-202404-Page-Content-Block-Mixed-Small.webp"
+            alt="gift card" />
         </div>
 
-        <div class="copyright-footer">
-          <div class="link-copyright-footer">
-            <a href="#">Informativa sulla privacy</a>
-            <a href="#">Cookie</a>
-            <a href="#">Informativa legale</a>
-            <a href="#">Termini d'uso</a>
-            <a href="#">Accessibilità</a>
-            <a href="#">Impostazioni dei cookie</a>
-          </div>
-          <div class="diritti-footer">
-            <p>
-              LEGO System A/S, DK-7190 Billund, Denmark. Per effettuare acquisti
-              online è necessario essere maggiorenni. LEGO, il logo LEGO, la
-              Minifigure, DUPLO, il logo FRIENDS, il logo MINIFIGURES, DREAMZzz,
-              NINJAGO, VIDIYO e MINDSTORMS sono marchi registrati di LEGO Group.
-              ©2024 The LEGO Group. Tutti i diritti riservati. L'uso di questo
-              sito implica l'accettazione dei Termini d’uso.
+        <div class="ie-azzurro">
+          <div class="build-section-ie">
+            <p class="build-head-ie">Build Together</p>
+            <p class="build-caption-ie">
+              L'app ha anche una funzione che ti permette di completare grandi
+              modelli facendo squadra con gli amici...
             </p>
+            <a href="#">Scopri di più
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </a>
+          </div>
+
+          <img class="ie-build-img" src="risorse/13-in-evidenza/Builderapp-202404-Page-Content-Block-Mixed-Small.webp"
+            alt="build together" />
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!--Leggi tutto-->
+
+  <main class="leggi-tutto">
+    <div class="lt-container">
+      <div class="lt-title">
+        <p>Leggi tutto</p>
+      </div>
+      <div class="lt-articles">
+        <article>
+          <a href="#">
+            <img src="risorse/14-leggi-tutto/Hero_Banner_-_Mobile.webp" />
+            <p class="lt-article-title">
+              I migliori regali LEGO<sup>®</sup> per gli appassionati di auto
+            </p>
+            <p class="lt-testo-card">
+              Da iconiche repliche di supercar a set con fuoristrada pieni di
+              azione, nella nostra vasta collezione LEGO<sup>®</sup> puoi
+              trovare i regali perfetti per gli appassionati di auto di tutte
+              le età.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="lt-article-button">
+              Leggi di più
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/14-leggi-tutto/2024_Hero_Banner_-_Mobile.webp" />
+            <p class="lt-article-title">
+              Piccoli set LEGO<sup>®</sup><i>Star Wars</i><sup>™</sup>
+            </p>
+            <p class="lt-testo-card">
+              Esplora la nostra collezione di piccoli set LEGO<sup>®</sup><i>Star Wars</i><sup>™</sup>
+              per trovare lo scenario in miniatura perfetto per le tue
+              avventure galattiche.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="lt-article-button">
+              Leggi di più
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/14-leggi-tutto/2024_Hero_Banner_-_Mobile (1).webp" />
+            <p class="lt-article-title">
+              I migliori regali <i>Star Wars</i><sup>™</sup> per bambini e
+              ragazzi
+            </p>
+            <p class="lt-testo-card">
+              Ecco alcuni dei migliori regali <i>Star Wars</i><sup>™</sup> per
+              i bambini da costruire e con cui giocare! Fai clic per saperne
+              di più.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="lt-article-button">
+              Leggi di più
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+        <article>
+          <a href="#">
+            <img src="risorse/14-leggi-tutto/HERO_Mobile.webp" />
+            <p class="lt-article-title">
+              Le migliori idee regalo <i>Star Wars</i><sup>™</sup> per gli
+              adulti
+            </p>
+            <p class="lt-testo-card">
+              Usa il potere della forza per fare i doni più incredibili della
+              galassia! Queste sono alcune delle migliori idee regalo
+              <i>Star Wars</i><sup>™</sup>
+              per gli adulti in grado di dominare il proprio destino.
+            </p>
+          </a>
+          <form action="#">
+            <button type="submit" class="lt-article-button">
+              Leggi di più
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!--claim-->
+  <div class="claim">
+    <div class="claim-container">
+      <p class="claim-text">
+        Ti diamo il benvenuto nel LEGO<sup>®</sup> Shop ufficiale, dove
+        troverai giocattoli da costruzione LEGO, <a href="#">regali</a>,
+        splendidi set da esposizione e molto altro ancora per
+        <a href="#">bambini</a> e adulti. Trova il regalo perfetto per
+        bambini, ragazzi e adulti, per festeggiare i
+        <a href="#">compleanni</a> o altre occasioni come
+        <a href="#">San Valentino</a>, la <a href="#">Festa della mamma</a> e
+        la <a href="#">Festa del papà</a>. Con noi è facile acquistare
+        giocattoli che garantiscono ore di gioco all'insegna del divertimento
+        e della fantasia. Puoi anche trovare
+        <a href="#">set LEGO per gli adulti</a>, perfetti per ogni tipo di
+        <a href="#">interessi</a> come <a href="#">auto</a>,
+        <a href="#">fiori</a>, <a href="#">videogiochi</a> e molto ancora!
+      </p>
+    </div>
+  </div>
+
+  <!--footer-->
+
+  <div class="upper-footer">
+    <div class="footer">
+      <div class="first-column-footer">
+        <div class="textfooter">
+          <img src="risorse/15-footer/brand-lego.svg" alt="LEGO_logo" />
+          <button>italia</button>
+          <a href="#"> Buoni regalo </a>
+          <a href="#"> Trova l'ispirazione </a>
+          <a href="#"> Cataloghi LEGO </a>
+          <a href="#"> Trova un negozio LEGO </a>
+        </div>
+      </div>
+      <div class="container-footer">
+        <div class="textfooter chisiamo">
+          <p>CHI SIAMO</p>
+          <a href="#"> Informazioni su LEGO Group </a>
+          <a href="#"> Sala stampa LEGO® </a>
+          <a href="#"> Sostenibilità </a>
+          <a href="#">
+            Dichiarazione sulla trasparenza della catena di fornitura
+          </a>
+          <a href="#"> Certificazioni dei prodotti LEGO </a>
+          <a href="#"> Carriere LEGO </a>
+          <a href="#"> Segnalazioni sulla conformità LEGO </a>
+        </div>
+        <div class="textfooter">
+          <p>SUPPORTO</p>
+          <a href="#"> Contattaci </a>
+          <a href="#"> Istruzioni </a>
+          <a href="#"> Parti mancanti </a>
+          <a href="./SITO LEGO SPEDIZIONE E RESI/spedizioni.html">
+            Spedizione e resi
+          </a>
+          <a href="#"> Modalità di pagamento </a>
+          <a href="#"> Termini e condizioni </a>
+          <a href="#"> Richiamo prodotti </a>
+        </div>
+        <div class="textfooter">
+          <p>ATTRAZIONI</p>
+          <a href="#"> LEGO® House </a>
+          <a href="#"> LEGOLAND® Parks </a>
+          <a href="#"> LEGOLAND Discovery Center </a>
+        </div>
+        <div class="textfooter">
+          <p>ALTRE INFORMAZIONI</p>
+          <a href="#"> LEGO® LIFE</a>
+          <a href="#"> LEGO Education</a>
+          <a href="#"> LEGO Ideas</a>
+          <a href="#"> LEGO Foundation</a>
+          <a href="#"> Programma di affiliazione</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="lower-footer">
+    <div class="lf-elements">
+      <div class="social-footer">
+        <div class="iscriviti-footer">
+          <p>ISCRIVITI ALLE E-MAIL DI MARKETING</p>
+          <div class="iscriviti-elements">
+            <input type="text" placeholder="il tuo indirizzo e-mail" />
+            <button>
+              <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="seguicifooter">
+          <p>SEGUICI</p>
+          <div class="logo-social-footer">
+            <img src="risorse/15-footer/facebook-895fba5a20c4facacb9655dade1d256c.svg" />
+            <img src="risorse/15-footer/twitter-4bee8e762dd6042960b804964fd64103.svg" />
+            <img src="risorse/15-footer/instagram-e47f0d4b15ff76083b415be91e96f43b.svg" />
+            <img src="risorse/15-footer/youtube-c51b2c62583921aae813fdc55df5f9d2.svg" />
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="copyright-footer">
+        <div class="link-copyright-footer">
+          <a href="#">Informativa sulla privacy</a>
+          <a href="#">Cookie</a>
+          <a href="#">Informativa legale</a>
+          <a href="#">Termini d'uso</a>
+          <a href="#">Accessibilità</a>
+          <a href="#">Impostazioni dei cookie</a>
+        </div>
+        <div class="diritti-footer">
+          <p>
+            LEGO System A/S, DK-7190 Billund, Denmark. Per effettuare acquisti
+            online è necessario essere maggiorenni. LEGO, il logo LEGO, la
+            Minifigure, DUPLO, il logo FRIENDS, il logo MINIFIGURES, DREAMZzz,
+            NINJAGO, VIDIYO e MINDSTORMS sono marchi registrati di LEGO Group.
+            ©2024 The LEGO Group. Tutti i diritti riservati. L'uso di questo
+            sito implica l'accettazione dei Termini d’uso.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

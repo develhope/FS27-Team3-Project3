@@ -359,6 +359,162 @@ body {
   text-decoration: underline;
 }
 
+/* Set in evidenza*/
+
+.cie-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  margin: 0em 3.125em 0em 3.125em;
+  padding-bottom: 2.5em;
+}
+
+.cie-title {
+  font-family: cera pro;
+  font-size: 1.875em;
+  margin-left: 50px;
+}
+
+.cie-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cie-card-container {
+  display: flex;
+  margin: 0px 15px 0px 25px;
+  align-items: center;
+  overflow-x: auto;
+  gap: 2em;
+  padding-bottom: 2.5em;
+  scroll-behavior: smooth;
+}
+
+.cie-button-left,
+.cie-button-right {
+  display: inline-flex;
+  align-items: center;
+  height: 2.1875em;
+  width: 2.1875em;
+  border-radius: 1.5625em;
+  background-color: transparent;
+  justify-content: center;
+  border: none;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.cie-button-left {
+  margin-right: 0.625em;
+}
+
+.cie-button-right {
+  margin-left: 0.625em;
+}
+
+.cie-card {
+  display: flex;
+  flex-direction: column;
+  width: 17.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.cie-card-img {
+  position: relative;
+  display: flex;
+  padding: 0.9375em;
+  height: 15.625em;
+  align-items: center;
+}
+
+.cie-card-img img {
+  width: 13.75em;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cie-disney-img img {
+  width: 10em;
+  height: auto;
+}
+
+.cie-tower-img img {
+  width: 7.5em;
+  height: auto;
+}
+
+.cie-card-img img:hover {
+  transform: scale(1.05);
+}
+
+.cie-card-img svg {
+  width: 1.875em;
+  position: absolute;
+  bottom: 6.875em;
+  align-self: flex-start;
+  left: 0;
+}
+
+.path-1 {
+  fill: #f8f8f8;
+  stroke-linecap: #006db7;
+}
+
+.cie-bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: #52138e;
+  color: white;
+  padding: 1.375em;
+  margin: 0;
+  gap: 0.625em;
+  font-family: Cera Pro medium;
+  height: 10em;
+  width: 14.375em;
+}
+
+.cie-card-title {
+  font-size: 0.875em;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.cie-card-stars {
+  width: 0.9375em;
+  display: flex;
+}
+
+.cie-card-price {
+  font-family: Cera Pro bold;
+  margin: 0;
+}
+
+.cie-card-button {
+  border: none;
+  background-color: #debfff;
+  color: black;
+  border-radius: 0.3125em;
+  margin: 0;
+}
+
+.cie-card-container::-webkit-scrollbar {
+  height: 0.25em;
+}
+
+.cie-card-container::-webkit-scrollbar-thumb {
+  background: #1c1b1b;
+}
+
+.cie-card-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.25em;
+  margin-left: 8.125em;
+  margin-right: 8.125em;
+}
+
 /* Preferiti della Settimana */
 
 .favourite-of-week {
@@ -428,6 +584,172 @@ body {
 .fow-article-button svg {
   height: 20px;
   align-self: center;
+}
+
+/*cosa stanno comprando gli altri*/
+
+.sc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  margin: 0em 3.125em 0em 3.125em;
+  padding-bottom: 2.5em;
+}
+
+.sc-title {
+  font-family: cera pro;
+  font-size: 1.875em;
+  margin-left: 50px;
+}
+
+.sc-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc-card-container {
+  display: flex;
+  margin: 0px 15px 0px 25px;
+  align-items: center;
+  overflow-x: auto;
+  gap: 2em;
+  padding-bottom: 40px;
+  scroll-behavior: smooth;
+}
+
+.sc-button-left,
+.sc-button-right {
+  display: inline-flex;
+  align-items: center;
+  height: 2.1875em;
+  width: 2.1875em;
+  border-radius: 1.5625em;
+  background-color: transparent;
+  justify-content: center;
+  border: none;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.sc-button-left {
+  margin-right: 0.625em;
+}
+
+.sc-button-right {
+  margin-left: 0.625em;
+}
+
+.sc-card {
+  display: flex;
+  flex-direction: column;
+  width: 18.125em;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc-card-img {
+  position: relative;
+  display: flex;
+  padding: 0.9375em;
+  height: 15.3125em;
+  width: 15.3125em;
+  align-items: center;
+  border: 0.0625em solid #e0e0e0;
+  margin-bottom: 0.625em;
+  justify-content: center;
+}
+
+.sc-card-img img {
+  width: 13.125em;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.sc-gatto img {
+  width: 10.625em;
+  height: auto;
+}
+
+.sc-tower-img img {
+  width: 7.5em;
+  height: auto;
+}
+
+.sc-card-img img:hover {
+  transform: scale(1.05);
+}
+
+.sc-card-img svg {
+  width: 1.875em;
+  position: absolute;
+  bottom: 6.875em;
+  align-self: flex-start;
+  left: 0.3125em;
+}
+
+.path-1 {
+  fill: #f8f8f8;
+  stroke-linecap: #006db7;
+}
+
+.sc-bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: rgb(25, 25, 25);
+  margin: 0;
+  gap: 0.625em;
+  font-family: Cera Pro medium;
+  height: 10em;
+  width: 17.1875em;
+}
+
+.sc-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.625em;
+}
+
+.sc-card-title {
+  font-size: 1em;
+  font-family: cera pro medium;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sc-card-price {
+  font-family: Cera Pro bold;
+  margin: 0;
+}
+
+.sc-card-button {
+  border: 0.125em solid #f8a2b5;
+  background-color: #f8a2b5;
+  color: black;
+  border-radius: 0.3125em;
+  margin: 0;
+}
+
+.sc-card-button:hover {
+  background-color: transparent;
+}
+
+.sc-card-container::-webkit-scrollbar {
+  height: 0.25em;
+}
+
+.sc-card-container::-webkit-scrollbar-thumb {
+  background: #1c1b1b;
+}
+
+.sc-card-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.25em;
+  margin-left: 8.125em;
+  margin-right: 8.125em;
 }
 
 /*Cookies*/

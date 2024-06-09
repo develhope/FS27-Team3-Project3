@@ -9,22 +9,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const aiutoBtn = document.getElementById("aiuto");
   const aiutoList = document.getElementById("aiuto-list");
 
-  
   function openSidebar(sideElement, listElement) {
-    
     setTimeout(() => {
       sideElement.style.transition = "transform 0.3s ease-in-out";
       sideElement.classList.add("side-white-box-visible");
-    }, 1000); 
+    }, 100);
 
-    
     setTimeout(() => {
       listElement.style.transition = "opacity 0.3s ease-in-out";
       listElement.classList.add("side-list-show");
-    }, 2000); 
+    }, 100);
   }
 
-  
   function closeSidebar(sideElement) {
     sideElement.classList.remove("side-white-box-visible");
   }
@@ -37,20 +33,25 @@ document.addEventListener("DOMContentLoaded", function () {
   scopriBtn.addEventListener("click", function (event) {
     openSidebar(side, scopriList);
     overlay.classList.add("dark-trasparency-visible");
+    acquistaList.classList.remove("side-list-show");
+    aiutoList.classList.remove("side-list-show");
   });
 
   aiutoBtn.addEventListener("click", function (event) {
     openSidebar(side, aiutoList);
     overlay.classList.add("dark-trasparency-visible");
+    acquistaList.classList.remove("side-list-show");
+    scopriList.classList.remove("side-list-show");
+   
   });
 
   closeBtn.addEventListener("click", function () {
-    closeSidebar(side); 
+    closeSidebar(side);
   });
 
-  
   overlay.addEventListener("click", function () {
-    closeSidebar(side); 
+    closeSidebar(side);
+    
     overlay.classList.remove("dark-trasparency-visible");
   });
 });

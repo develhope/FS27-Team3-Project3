@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="fonts.css" />
   <script src="./Main-js/side.js" defer></script>
   <script src="./Main-js/carosello.js" defer></script>
+  <script src="./Main-js/searchbutton.js" defer></script>
 
 </head>
 
@@ -35,32 +36,36 @@
 
   <!--header giallo -->
 
-  <script src="./Search-button (Javascript)/searchbutton.js"></script>
+
   <header class="header-g">
     <div class="header-g-logo">
-        <a href="project3.html"><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo" /></a>
+      <a href="homepage.html"><img src="risorse/02-header-giallo/LEGO_logo.png" alt="LEGO Logo" /></a>
     </div>
     <nav>
-        <ul>
-            <li><a href="#">ACQUISTA</a></li>
-            <li><a href="#">SCOPRI</a></li>
-            <li><a href="#">AIUTO</a></li>
-        </ul>
+      <ul>
+        <li><a href="#" id="acquista">ACQUISTA</a></li>
+        <li><a href="#" id="scopri">SCOPRI</a></li>
+        <li><a href="#" id="aiuto">AIUTO</a></li>
+      </ul>
     </nav>
     <div class="header-g-icons">
-        <form id="searchForm" style="display: flex; align-items: center; background-color: white; border-radius: 20px; padding: 5px 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); position: relative;">
-            <button id="searchButton" type="button" style="background-color: transparent; border: none; display: flex; align-items: center; justify-content: center;">
-                <img src="risorse/02-header-giallo/search.png" style="height: 20px; cursor: pointer;" />
-            </button>
-            <input type="text" id="searchInput" placeholder="Cerca..." style="border: none; outline: none; padding: 5px; flex-grow: 1; margin-left: 5px; display: none;">
-            <button id="closeButton" type="button" style="background-color: transparent; border: none; display: none; align-items: center; justify-content: center;">
-                <img src="risorse/02-header-giallo/close.png" style="height: 20px; cursor: pointer;" />
-            </button>
-        </form>
-        <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
-        <a href="#"><img src="risorse/02-header-giallo/shop.png" alt="" /><sup>(0)</sup></a>
+      <form id="searchForm">
+        <button id="searchButton" type="button">
+          <img src="risorse/02-header-giallo/search.png" />
+        </button>
+        <input type="text" id="searchInput" placeholder="Cerca...">
+        <button id="closeButton" type="button">
+          <svg class="btn-X" xmlns="http://www.w3.org/2000/svg" width="30"
+              height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </button>
+      </form>
+      <a href="#"><img src="risorse/02-header-giallo/heart.png" alt="" /></a>
+      <a href="#"><img src="risorse/02-header-giallo/shop.png" alt="" /><sup>(0)</sup></a>
     </div>
-</header>
+  </header>
 
   <!--sidebar-->
   <div id="vp-box" class="vp-box">
@@ -208,13 +213,13 @@
       </a>
     </div>
     <div class="small-card">
-      <a href="#">
+      <a href="./OFFER AND SALES/offer-&-sale.html">
         <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Offer.webp" alt="Offerte" />
         <p>Offerte</p>
       </a>
     </div>
     <div class="small-card">
-      <a href="./OFFER AND SALES/offer-&-sale.html">
+      <a href="#">
         <img src="risorse/04-cards-piccole/Jan-Feb-DrivePeriod-Home-202401-Quicklink-Flowers.webp" alt="LEGO® Icons" />
         <p>LEGO® Icons</p>
       </a>
@@ -1567,15 +1572,15 @@
     <div class="sb-header">
       <div class="sb-header-content">
         <p class="sb-text">Scopri le offerte speciali in corso</p>
-        <a href="./OFFER AND SALES/offer-&-sale.html"></a>
+        <a href="./OFFER AND SALES/offer-&-sale.html">
         <button class="sb-button">
-          Scopri di più 
+          Scopri di più
           <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M28.086 18.906c.562.625.562 1.563 0 2.125l-12 12c-.625.625-1.563.625-2.125 0a1.369 1.369 0 0 1 0-2.062L24.898 20.03l-10.937-11a1.369 1.369 0 0 1 0-2.062 1.369 1.369 0 0 1 2.062 0l12.063 11.937Z" />
           </svg>
         </button>
-      </a>
+        </a>
       </div>
     </div>
   </div>

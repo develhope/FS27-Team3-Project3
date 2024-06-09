@@ -149,6 +149,58 @@ body {
   margin-right: 45px;
 }
 
+/*parte francesca*/
+
+#searchForm {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px 10px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  position: relative;
+  justify-content: center;
+}
+
+#searchButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchButton img {
+  height: 40px;
+  cursor: pointer;
+}
+
+#searchInput {
+  border: none;
+  outline: none;
+  padding: 5px;
+  flex-grow: 1;
+  margin-left: 5px;
+  display: none;
+}
+
+#closeButton {
+  background-color: transparent;
+  border: none;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#closeButton svg {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+/*fine parte francesca*/
+
 .header-g-icons img {
   height: 20px;
 }

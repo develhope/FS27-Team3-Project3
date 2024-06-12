@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
   innerBtnAcquista.addEventListener("click", () => {
     openSidebar(side, acquistaList);
     overlay.classList.add("dark-trasparency-visible");
+    copriList.classList.remove("side-list-show");
+    aiutoList.classList.remove("side-list-show");
   });
 
   scopriBtn.addEventListener("click", function (event) {

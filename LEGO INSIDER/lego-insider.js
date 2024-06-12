@@ -7,25 +7,20 @@ svg.style.transform = "rotate(270deg)";
 const button = document.querySelector(".insider-freccietta");
 const svg = document.getElementById("insiderSvg");
 const hiddenText = document.querySelector(".hidden-text");
-let clickCount = 0; 
+let toggle = false;
 
 function addText() {
-  clickCount++; 
+  toggle = !toggle;
+  console.log("ciao");
 
-  if (clickCount === 2) {
-
+  if (toggle) {
     hiddenText.style.display = "inline-block";
     svg.style.transform = "rotate(270deg)";
-
-  }
- else {
-
+  } else {
     hiddenText.style.display = "none";
     svg.style.transform = "rotate(90deg)";
-    
   }
 }
-clickCount = 0
 
 button.addEventListener("click", addText);
 

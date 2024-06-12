@@ -42,16 +42,18 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.classList.add("dark-trasparency-visible");
     acquistaList.classList.remove("side-list-show");
     scopriList.classList.remove("side-list-show");
-   
   });
 
   closeBtn.addEventListener("click", function () {
     closeSidebar(side);
+    overlay.style.display = "none";
   });
-
+  side.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
   overlay.addEventListener("click", function () {
     closeSidebar(side);
-    
+
     overlay.classList.remove("dark-trasparency-visible");
   });
 });

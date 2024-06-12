@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const scopriList = document.getElementById("scopri-list");
   const aiutoBtn = document.getElementById("aiuto");
   const aiutoList = document.getElementById("aiuto-list");
+  const innerBtnAcquista = document.getElementById("inner-acquista");
+  const innerBtnscopri = document.getElementById("inner-scopri");
+  const innerBtnAiuto = document.getElementById("inner-aiuto");
 
   function openSidebar(sideElement, listElement) {
     setTimeout(() => {
@@ -29,8 +32,18 @@ document.addEventListener("DOMContentLoaded", function () {
     openSidebar(side, acquistaList);
     overlay.classList.add("dark-trasparency-visible");
   });
+  innerBtnAcquista.addEventListener("click", () => {
+    openSidebar(side, acquistaList);
+    overlay.classList.add("dark-trasparency-visible");
+  });
 
   scopriBtn.addEventListener("click", function (event) {
+    openSidebar(side, scopriList);
+    overlay.classList.add("dark-trasparency-visible");
+    acquistaList.classList.remove("side-list-show");
+    aiutoList.classList.remove("side-list-show");
+  });
+  innerBtnscopri.addEventListener("click", () => {
     openSidebar(side, scopriList);
     overlay.classList.add("dark-trasparency-visible");
     acquistaList.classList.remove("side-list-show");
@@ -43,7 +56,12 @@ document.addEventListener("DOMContentLoaded", function () {
     acquistaList.classList.remove("side-list-show");
     scopriList.classList.remove("side-list-show");
   });
-
+  innerBtnAiuto.addEventListener("click", () => {
+    openSidebar(side, aiutoList);
+    overlay.classList.add("dark-trasparency-visible");
+    acquistaList.classList.remove("side-list-show");
+    scopriList.classList.remove("side-list-show");
+  });
   closeBtn.addEventListener("click", function () {
     closeSidebar(side);
     overlay.style.display = "none";
